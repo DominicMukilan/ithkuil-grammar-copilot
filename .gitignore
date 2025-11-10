@@ -1,0 +1,25 @@
+# Python
+venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.so
+*.egg-info/
+
+# Environment
+.env
+.venv
+
+# IDE
+.vscode/
+.idea/
+
+# Data (we'll add real data from project knowledge)
+data/*.json
+!data/.gitkeep
+
+# OS
+.DS_Store
+Thumbs.db

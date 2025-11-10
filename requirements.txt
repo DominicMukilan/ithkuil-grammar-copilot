@@ -1,0 +1,7 @@
+# Core - What we need NOW
+python-dotenv>=1.0.0
+
+# Will add later as needed:
+groq>=0.9.0          # For LLM (Day 2)
+chromadb>=0.4.0      # For production RAG (Day 3)
+streamlit>=1.28.0    # For UI (Day 4)
