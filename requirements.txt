@@ -1,7 +1,8 @@
-# Core - What we need NOW
-python-dotenv>=1.0.0
-
-# Will add later as needed:
-groq>=0.9.0          # For LLM (Day 2)
-chromadb>=0.4.0      # For production RAG (Day 3)
-streamlit>=1.28.0    # For UI (Day 4)
+groq==0.36.0
+chromadb==1.3.5
+sentence-transformers==5.1.2
+pytest==9.0.1
+# For sentence-transformers compatibility
+torch==2.9.1
+numpy==1.26.4
+transformers==4.57.3

@@ -1,0 +1,1888 @@
+[
+  {
+    "id": "1872c0c9076d",
+    "type": "case",
+    "code": "THM",
+    "name": "Thematic",
+    "description": "The (usually inanimate) party which is a participant to the verbal predicate which does not undergo any tangible change of state.Semantic role: CONTENT",
+    "source_type": "grammar",
+    "confidence": "HIGH",
+    "citation": "Official Ithkuil IV Grammar, §7 (Cases)",
+    "when_to_use": "Use Thematic to mark the The (usually inanimate) party which is a participant to the verbal predicate which does not undergo any tangible change of state.Semantic role: CONTENT",
+    "why_not_alternatives": {
+      "INS": "INS is for instruments/tools actively used; THM is for the topic/content itself",
+      "ABS": "ABS undergoes change/effect; THM is static participant",
+      "ERG": "ERG is the agent causing action; THM is the neutral topic"
+    },
+    "common_mistakes": [
+      "Don't use THM for tools/instruments (use INS)",
+      "Don't use THM when entity undergoes change (use ABS)"
+    ],
+    "embedding_text": "Thematic in Ithkuil\nThe (usually inanimate) party which is a participant to the verbal predicate which does not undergo any tangible change of state.Semantic role: CONTENT\nThematic case\nTHM Ithkuil\nwhen to use Thematic\nhow to express thematic\ncontent",
+    "slot": 9,
+    "category": "case",
+    "semantic_role": "CONTENT"
+  },
+  {
+    "id": "3ccd7f1ea329",
+    "type": "case",
+    "code": "INS",
+    "name": "Instrumental",
+    "description": "The entity acting as means utilized by an explicit or implicit agent to implement/carry out the effect/impact of an act/event.Semantic role: INSTRUMENT",
+    "source_type": "grammar",
+    "confidence": "HIGH",
+    "citation": "Official Ithkuil IV Grammar, §7 (Cases)",
+    "when_to_use": "Use Instrumental when: The entity acting as means utilized by an explicit or implicit agent to implement/carry out the effect/impact of an act/event.Semantic role: INSTRUMENT",
+    "why_not_alternatives": {
+      "THM": "THM is the content/theme; INS is specifically the tool/means",
+      "ERG": "ERG is the agent using the tool; INS is the tool itself",
+      "ABS": "ABS receives the action; INS enables/facilitates it"
+    },
+    "common_mistakes": [
+      "INS requires active use in an action, not just possession",
+      "Don't confuse with ERG (the agent) - INS is the tool"
+    ],
+    "embedding_text": "Instrumental in Ithkuil\nThe entity acting as means utilized by an explicit or implicit agent to implement/carry out the effect/impact of an act/event.Semantic role: INSTRUMENT\nInstrumental case\nINS Ithkuil\nwhen to use Instrumental\nhow to express instrumental\ninstrument",
+    "slot": 9,
+    "category": "case",
+    "semantic_role": "INSTRUMENT"
+  },
+  {
+    "id": "ab181596618b",
+    "type": "case",
+    "code": "ABS",
+    "name": "Absolutive",
+    "description": "The party that is the target of, and/or undergoes, the effect/impact or change of state as a result of a tangible act/event.Semantic role: PATIENT",
+    "source_type": "grammar",
+    "confidence": "HIGH",
+    "citation": "Official Ithkuil IV Grammar, §7 (Cases)",
+    "when_to_use": "Use Absolutive to mark the The party that is the target of, and/or undergoes, the effect/impact or change of state as a result of a tangible act/event.Semantic role: PATIENT",
+    "why_not_alternatives": {
+      "THM": "THM for static participants; ABS for entities undergoing change",
+      "ERG": "ERG causes the change; ABS receives/undergoes it",
+      "AFF": "AFF for internal experiences; ABS for external changes"
+    },
+    "common_mistakes": [
+      "Use only when entity undergoes tangible change of state",
+      "Don't use for static participants (use THM)"
+    ],
+    "embedding_text": "Absolutive in Ithkuil\nThe party that is the target of, and/or undergoes, the effect/impact or change of state as a result of a tangible act/event.Semantic role: PATIENT\nAbsolutive case\nABS Ithkuil\nwhen to use Absolutive\nhow to express absolutive\npatient",
+    "slot": 9,
+    "category": "case",
+    "semantic_role": "PATIENT"
+  },
+  {
+    "id": "ad4084b25722",
+    "type": "case",
+    "code": "AFF",
+    "name": "Affective",
+    "description": "The party who undergoes an unwilled, affective experience,e.g. coughing, sneezing, feeling hot/cold, trembling, experiencing sensory input (tactile, olfactory, visual, aural, gustatory), proprioceptive states, psychological/emotional states, reflex reactions such as cringing, yawning, ducking, screaming in fright, etc.Semantic role: EXPERIENCER",
+    "source_type": "grammar",
+    "confidence": "HIGH",
+    "citation": "Official Ithkuil IV Grammar, §7 (Cases)",
+    "when_to_use": "Use Affective when: The party who undergoes an unwilled, affective experience,e.g. coughing, sneezing, feeling hot/cold, trembling, experiencing sensory input (tactile, olfactory, visual, aural, gusta",
+    "why_not_alternatives": {
+      "ABS": "ABS for external changes; AFF for involuntary internal experiences",
+      "STM": "STM is the trigger/cause; AFF is the experiencer",
+      "ERG": "ERG acts volitionally; AFF experiences involuntarily"
+    },
+    "common_mistakes": [
+      "Only for UNWILLED experiences (sneezing, feeling cold, emotions)",
+      "Don't use for deliberate actions or volitional states"
+    ],
+    "embedding_text": "Affective in Ithkuil\nThe party who undergoes an unwilled, affective experience,e.g. coughing, sneezing, feeling hot/cold, trembling, experiencing sensory input (tactile, olfactory, visual, aural, gustatory), proprioceptive states, psychological/emotional states, reflex reactions such as cringing, yawning, ducking, screaming in fright, etc.Semantic role: EXPERIENCER\nAffective case\nAFF Ithkuil\nwhen to use Affective\nhow to express affective\nexperiencer",
+    "slot": 9,
+    "category": "case",
+    "semantic_role": "EXPERIENCER"
+  },
+  {
+    "id": "c9faf878ac04",
+    "type": "case",
+    "code": "STM",
+    "name": "Stimulative",
+    "description": "The party/entity/idea/thought/situation or mental state which triggers an unwilled, affective response or is the trigger for an existential state such as possession.Semantic role: STIMULUS",
+    "source_type": "grammar",
+    "confidence": "HIGH",
+    "citation": "Official Ithkuil IV Grammar, §7 (Cases)",
+    "when_to_use": "Use Stimulative when: The party/entity/idea/thought/situation or mental state which triggers an unwilled, affective response or is the trigger for an existential state such as possession.Semantic role: ",
+    "why_not_alternatives": {
+      "AFF": "AFF experiences the state; STM triggers/causes it",
+      "ERG": "ERG acts with volition; STM triggers involuntarily",
+      "EFF": "EFF initiates causal chains; STM triggers affective responses"
+    },
+    "common_mistakes": [
+      "STM triggers internal affective states, not external actions",
+      "Usually paired with AFF (STM triggers, AFF experiences)"
+    ],
+    "embedding_text": "Stimulative in Ithkuil\nThe party/entity/idea/thought/situation or mental state which triggers an unwilled, affective response or is the trigger for an existential state such as possession.Semantic role: STIMULUS\nStimulative case\nSTM Ithkuil\nwhen to use Stimulative\nhow to express stimulative\nstimulus",
+    "slot": 9,
+    "category": "case",
+    "semantic_role": "STIMULUS"
+  },
+  {
+    "id": "01d95d3de8b9",
+    "type": "case",
+    "code": "EFF",
+    "name": "Effectuative",
+    "description": "The party/force that initiates a chain of causal events or who induces another party to act as an agent (specifiable via the ENB affix).Semantic role: ENABLER",
+    "source_type": "grammar",
+    "confidence": "HIGH",
+    "citation": "Official Ithkuil IV Grammar, §7 (Cases)",
+    "when_to_use": "Use Effectuative when: The party/force that initiates a chain of causal events or who induces another party to act as an agent (specifiable via the ENB affix).Semantic role: ENABLER",
+    "why_not_alternatives": {
+      "ERG": "ERG acts directly; EFF sets in motion (causes another to act)",
+      "STM": "STM triggers affective states; EFF initiates causal chains",
+      "INS": "INS is the means; EFF is the ultimate cause"
+    },
+    "common_mistakes": [
+      "EFF is for indirect causation (X causes Y to do Z)",
+      "Distinguish ultimate cause (EFF) from direct agent (ERG)"
+    ],
+    "embedding_text": "Effectuative in Ithkuil\nThe party/force that initiates a chain of causal events or who induces another party to act as an agent (specifiable via the ENB affix).Semantic role: ENABLER\nEffectuative case\nEFF Ithkuil\nwhen to use Effectuative\nhow to express effectuative\nenabler",
+    "slot": 9,
+    "category": "case",
+    "semantic_role": "ENABLER"
+  },
+  {
+    "id": "cebea8fe85ac",
+    "type": "case",
+    "code": "ERG",
+    "name": "Ergative",
+    "description": "The animate party or inanimate force which initiates/causes an act/event which creates a tangible effect or change of state in a patient.Semantic role: AGENT or FORCE",
+    "source_type": "grammar",
+    "confidence": "HIGH",
+    "citation": "Official Ithkuil IV Grammar, §7 (Cases)",
+    "when_to_use": "Use Ergative to mark the The animate party or inanimate force which initiates/causes an act/event which creates a tangible effect or change of state in a patient.Semantic role: AGENT or FORCE",
+    "why_not_alternatives": {
+      "IND": "IND when agent=patient (self-action); ERG when acting on another",
+      "EFF": "EFF initiates causal chain; ERG directly performs action",
+      "INS": "INS is the tool; ERG is the user/wielder"
+    },
+    "common_mistakes": [
+      "Don't use for reflexive actions (agent=patient, use IND)",
+      "ERG implies volitional agency or causal force"
+    ],
+    "embedding_text": "Ergative in Ithkuil\nThe animate party or inanimate force which initiates/causes an act/event which creates a tangible effect or change of state in a patient.Semantic role: AGENT or FORCE\nErgative case\nERG Ithkuil\nwhen to use Ergative\nhow to express ergative\nagent",
+    "slot": 9,
+    "category": "case",
+    "semantic_role": "AGENT"
+  },
+  {
+    "id": "62d431b64025",
+    "type": "case",
+    "code": "DAT",
+    "name": "Dative",
+    "description": "The party which is the (intended) recipient of a verb of transference, transmission, or communication; the party at/to which a physically transferred entity, transmitted information, or a communicable entity is directed.Semantic role: RECIPIENT",
+    "source_type": "grammar",
+    "confidence": "HIGH",
+    "citation": "Official Ithkuil IV Grammar, §7 (Cases)",
+    "when_to_use": "Use Dative when: The party which is the (intended) recipient of a verb of transference, transmission, or communication; the party at/to which a physically transferred entity, transmitted informatio",
+    "why_not_alternatives": {
+      "ABS": "ABS receives effects; DAT receives transfers/communications",
+      "ERG": "ERG is the giver/sender; DAT is the recipient",
+      "TRA": "TRA marks benefactive purpose; DAT marks actual recipient"
+    },
+    "common_mistakes": [
+      "Specifically for acts of transfer/communication",
+      "Can mark intended recipient even if transfer fails"
+    ],
+    "embedding_text": "Dative in Ithkuil\nThe party which is the (intended) recipient of a verb of transference, transmission, or communication; the party at/to which a physically transferred entity, transmitted information, or a communicable entity is directed.Semantic role: RECIPIENT\nDative case\nDAT Ithkuil\nwhen to use Dative\nhow to express dative\nrecipient",
+    "slot": 9,
+    "category": "case",
+    "semantic_role": "RECIPIENT"
+  },
+  {
+    "id": "bf5748608f4f",
+    "type": "case",
+    "code": "IND",
+    "name": "Inducive",
+    "description": "The patient who undergoes the tangible effect, impact, or change of state of an act/event initiated/caused by that self-same party.Semantic role: AGENT+PATIENT",
+    "source_type": "grammar",
+    "confidence": "HIGH",
+    "citation": "Official Ithkuil IV Grammar, §7 (Cases)",
+    "when_to_use": "Use Inducive to mark the The patient who undergoes the tangible effect, impact, or change of state of an act/event initiated/caused by that self-same party.Semantic role: AGENT+PATIENT",
+    "why_not_alternatives": {
+      "ERG": "ERG acts on another entity; IND acts on itself",
+      "ABS": "ABS is acted upon by another; IND is self-acted-upon",
+      "AFF": "AFF experiences involuntarily; IND acts on self volitionally"
+    },
+    "common_mistakes": [
+      "Use only when agent and patient are literally the same entity",
+      "Different from using reflexive affixes on ERG+ABS"
+    ],
+    "embedding_text": "Inducive in Ithkuil\nThe patient who undergoes the tangible effect, impact, or change of state of an act/event initiated/caused by that self-same party.Semantic role: AGENT+PATIENT\nInducive case\nIND Ithkuil\nwhen to use Inducive\nhow to express inducive\nagent+patient",
+    "slot": 9,
+    "category": "case",
+    "semantic_role": "AGENT+PATIENT"
+  },
+  {
+    "id": "ba71f9adef60",
+    "type": "case",
+    "code": "POS",
+    "name": "Possesive",
+    "description": "The party which has alienable (i.e., removable or severable) possession of another noun in the sense of having physical control or oversight of that noun, whether by chance circumstance or deliberate manipulation.",
+    "source_type": "grammar",
+    "confidence": "HIGH",
+    "citation": "Official Ithkuil IV Grammar, §7 (Cases)",
+    "when_to_use": "Use Possesive when: The party which has alienable (i.e., removable or severable) possession of another noun in the sense of having physical control or oversight of that noun, whether by chance circums",
+    "why_not_alternatives": {
+      "PRP": "PRP for ownership rights; POS for physical possession/control",
+      "GEN": "GEN for source/origin; POS for current possession",
+      "COM": "COM for accompaniment; POS for control/possession"
+    },
+    "common_mistakes": [
+      "POS for removable/alienable possession (can be taken away)",
+      "Don't use for inherent traits (use ATT)"
+    ],
+    "embedding_text": "Possesive in Ithkuil\nThe party which has alienable (i.e., removable or severable) possession of another noun in the sense of having physical control or oversight of that noun, whether by chance circumstance or deliberate manipulation.\nPossesive case\nPOS Ithkuil\nwhen to use Possesive\nhow to express possesive\npossessor",
+    "slot": 9,
+    "category": "case",
+    "semantic_role": "POSSESSOR"
+  },
+  {
+    "id": "55624812a218",
+    "type": "case",
+    "code": "PRP",
+    "name": "Proprietive",
+    "description": "The party having alienable possession of another noun in the sense of quasi-permanent contextual control, ownership or oversight, whether by societal recognition, socialconvention, law, purchase or decree, which mere physical separation does not sever.",
+    "source_type": "grammar",
+    "confidence": "HIGH",
+    "citation": "Official Ithkuil IV Grammar, §7 (Cases)",
+    "when_to_use": "Use Proprietive when: The party having alienable possession of another noun in the sense of quasi-permanent contextual control, ownership or oversight, whether by societal recognition, socialconvention,",
+    "why_not_alternatives": {
+      "POS": "POS for physical control; PRP for legal ownership",
+      "GEN": "GEN shows origin; PRP shows ownership rights",
+      "ATT": "ATT for characteristics; PRP for owned properties"
+    },
+    "common_mistakes": [
+      "PRP for ownership rights, not just physical possession",
+      "Includes abstract ownership (intellectual property, etc.)"
+    ],
+    "embedding_text": "Proprietive in Ithkuil\nThe party having alienable possession of another noun in the sense of quasi-permanent contextual control, ownership or oversight, whether by societal recognition, socialconvention, law, purchase or decree, which mere physical separation does not sever.\nProprietive case\nPRP Ithkuil\nwhen to use Proprietive\nhow to express proprietive\nowner",
+    "slot": 9,
+    "category": "case",
+    "semantic_role": "OWNER"
+  },
+  {
+    "id": "b418555d2560",
+    "type": "case",
+    "code": "GEN",
+    "name": "Genitive",
+    "description": "The party which has inalienable (i.e., irremovable, non-severable) possession of or association with another noun in the sense of having that noun as an inherent or intrinsic attribute, characteristic, physical part, or genetic (i.e., familial) bond.",
+    "source_type": "grammar",
+    "confidence": "HIGH",
+    "citation": "Official Ithkuil IV Grammar, §7 (Cases)",
+    "when_to_use": "Use Genitive when: The party which has inalienable (i.e., irremovable, non-severable) possession of or association with another noun in the sense of having that noun as an inherent or intrinsic attri",
+    "why_not_alternatives": {
+      "POS": "POS for current possession; GEN for origin/source",
+      "OGN": "OGN for physical origin; GEN for abstract source",
+      "PRP": "PRP for ownership; GEN for originating relationship"
+    },
+    "common_mistakes": [
+      "GEN shows source/origin, not current possession",
+      "Can be abstract (source of idea) or concrete (made from)"
+    ],
+    "embedding_text": "Genitive in Ithkuil\nThe party which has inalienable (i.e., irremovable, non-severable) possession of or association with another noun in the sense of having that noun as an inherent or intrinsic attribute, characteristic, physical part, or genetic (i.e., familial) bond.\nGenitive case\nGEN Ithkuil\nwhen to use Genitive\nhow to express genitive\nsource",
+    "slot": 9,
+    "category": "case",
+    "semantic_role": "SOURCE"
+  },
+  {
+    "id": "41c1eb15cad4",
+    "type": "case",
+    "code": "ATT",
+    "name": "Attributive",
+    "description": "The party which inalienably experiences the effects of, or otherwise has an affective (see the affective case above) relationship with another noun, either as a temporary or permanent attribute, characteristic, or experience, whether physical or psychological, objective or subjective in nature.",
+    "source_type": "grammar",
+    "confidence": "HIGH",
+    "citation": "Official Ithkuil IV Grammar, §7 (Cases)",
+    "when_to_use": "Use Attributive when: The party which inalienably experiences the effects of, or otherwise has an affective (see the affective case above) relationship with another noun, either as a temporary or perman",
+    "why_not_alternatives": {
+      "POS": "POS (Possesive) serves a different role",
+      "PRP": "PRP (Proprietive) serves a different role",
+      "GEN": "GEN (Genitive) serves a different role"
+    },
+    "common_mistakes": [
+      "Study the specific semantic distinctions of Attributive",
+      "Compare with related cases in Appositive category"
+    ],
+    "embedding_text": "Attributive in Ithkuil\nThe party which inalienably experiences the effects of, or otherwise has an affective (see the affective case above) relationship with another noun, either as a temporary or permanent attribute, characteristic, or experience, whether physical or psychological, objective or subjective in nature.\nAttributive case\nATT Ithkuil\nwhen to use Attributive\nhow to express attributive\nattribute",
+    "slot": 9,
+    "category": "case",
+    "semantic_role": "ATTRIBUTE"
+  },
+  {
+    "id": "6843127a4c0e",
+    "type": "case",
+    "code": "PDC",
+    "name": "Productive",
+    "description": "The party which is the creator, author or originator of another noun.",
+    "source_type": "grammar",
+    "confidence": "HIGH",
+    "citation": "Official Ithkuil IV Grammar, §7 (Cases)",
+    "when_to_use": "Use Productive when: The party which is the creator, author or originator of another noun.",
+    "why_not_alternatives": {
+      "POS": "POS (Possesive) serves a different role",
+      "PRP": "PRP (Proprietive) serves a different role",
+      "GEN": "GEN (Genitive) serves a different role"
+    },
+    "common_mistakes": [
+      "Study the specific semantic distinctions of Productive",
+      "Compare with related cases in Appositive category"
+    ],
+    "embedding_text": "Productive in Ithkuil\nThe party which is the creator, author or originator of another noun.\nProductive case\nPDC Ithkuil\nwhen to use Productive\nhow to express productive\nproducer",
+    "slot": 9,
+    "category": "case",
+    "semantic_role": "PRODUCER"
+  },
+  {
+    "id": "0256726c310d",
+    "type": "case",
+    "code": "ITP",
+    "name": "Interpretative",
+    "description": "The party acting as the subjective interpretational context of another noun, that is the noun by or through which another noun is subjectively considered, interpreted or described,e.g. Monet's Paris, my baseball team (as spoken by a fan).",
+    "source_type": "grammar",
+    "confidence": "HIGH",
+    "citation": "Official Ithkuil IV Grammar, §7 (Cases)",
+    "when_to_use": "Use Interpretative when: The party acting as the subjective interpretational context of another noun, that is the noun by or through which another noun is subjectively considered, interpreted or described,",
+    "why_not_alternatives": {
+      "POS": "POS (Possesive) serves a different role",
+      "PRP": "PRP (Proprietive) serves a different role",
+      "GEN": "GEN (Genitive) serves a different role"
+    },
+    "common_mistakes": [
+      "Study the specific semantic distinctions of Interpretative",
+      "Compare with related cases in Appositive category"
+    ],
+    "embedding_text": "Interpretative in Ithkuil\nThe party acting as the subjective interpretational context of another noun, that is the noun by or through which another noun is subjectively considered, interpreted or described,e.g. Monet's Paris, my baseball team (as spoken by a fan).\nInterpretative case\nITP Ithkuil\nwhen to use Interpretative\nhow to express interpretative\ninterpreter",
+    "slot": 9,
+    "category": "case",
+    "semantic_role": "INTERPRETER"
+  },
+  {
+    "id": "58f87905495e",
+    "type": "case",
+    "code": "OGN",
+    "name": "Originative",
+    "description": "The party which is the literal or figurative source of another, or which is the native location, origin, or usual locative context for another.",
+    "source_type": "grammar",
+    "confidence": "HIGH",
+    "citation": "Official Ithkuil IV Grammar, §7 (Cases)",
+    "when_to_use": "Use Originative when: The party which is the literal or figurative source of another, or which is the native location, origin, or usual locative context for another.",
+    "why_not_alternatives": {
+      "POS": "POS (Possesive) serves a different role",
+      "PRP": "PRP (Proprietive) serves a different role",
+      "GEN": "GEN (Genitive) serves a different role"
+    },
+    "common_mistakes": [
+      "Study the specific semantic distinctions of Originative",
+      "Compare with related cases in Appositive category"
+    ],
+    "embedding_text": "Originative in Ithkuil\nThe party which is the literal or figurative source of another, or which is the native location, origin, or usual locative context for another.\nOriginative case\nOGN Ithkuil\nwhen to use Originative\nhow to express originative\norigin",
+    "slot": 9,
+    "category": "case",
+    "semantic_role": "ORIGIN"
+  },
+  {
+    "id": "2890f36e0e82",
+    "type": "case",
+    "code": "IDP",
+    "name": "Interdependent",
+    "description": "The party which has a coordinated, tandem, complementary or mutually dependent relationship with another. The relationship between the two nouns can be thought of as reciprocal in nature, i.e., each noun implies the other or needs the other to exist within its natural context.",
+    "source_type": "grammar",
+    "confidence": "HIGH",
+    "citation": "Official Ithkuil IV Grammar, §7 (Cases)",
+    "when_to_use": "Use Interdependent when: The party which has a coordinated, tandem, complementary or mutually dependent relationship with another. The relationship between the two nouns can be thought of as reciprocal in ",
+    "why_not_alternatives": {
+      "POS": "POS (Possesive) serves a different role",
+      "PRP": "PRP (Proprietive) serves a different role",
+      "GEN": "GEN (Genitive) serves a different role"
+    },
+    "common_mistakes": [
+      "Study the specific semantic distinctions of Interdependent",
+      "Compare with related cases in Appositive category"
+    ],
+    "embedding_text": "Interdependent in Ithkuil\nThe party which has a coordinated, tandem, complementary or mutually dependent relationship with another. The relationship between the two nouns can be thought of as reciprocal in nature, i.e., each noun implies the other or needs the other to exist within its natural context.\nInterdependent case\nIDP Ithkuil\nwhen to use Interdependent\nhow to express interdependent\ndependent",
+    "slot": 9,
+    "category": "case",
+    "semantic_role": "DEPENDENT"
+  },
+  {
+    "id": "f001c77474f4",
+    "type": "case",
+    "code": "PAR",
+    "name": "Partitive",
+    "description": "Indicates a quantitative or content-to-container relationship between the two nouns,e.g. a cup of coffee, a box(ful) of books, a train(load) of refugees, twelve chairs.",
+    "source_type": "grammar",
+    "confidence": "HIGH",
+    "citation": "Official Ithkuil IV Grammar, §7 (Cases)",
+    "when_to_use": "Use Partitive when: Indicates a quantitative or content-to-container relationship between the two nouns,e.g. a cup of coffee, a box(ful) of books, a train(load) of refugees, twelve chairs.",
+    "why_not_alternatives": {
+      "POS": "POS (Possesive) serves a different role",
+      "PRP": "PRP (Proprietive) serves a different role",
+      "GEN": "GEN (Genitive) serves a different role"
+    },
+    "common_mistakes": [
+      "Study the specific semantic distinctions of Partitive",
+      "Compare with related cases in Appositive category"
+    ],
+    "embedding_text": "Partitive in Ithkuil\nIndicates a quantitative or content-to-container relationship between the two nouns,e.g. a cup of coffee, a box(ful) of books, a train(load) of refugees, twelve chairs.\nPartitive case\nPAR Ithkuil\nwhen to use Partitive\nhow to express partitive\npart",
+    "slot": 9,
+    "category": "case",
+    "semantic_role": "PART"
+  },
+  {
+    "id": "157ac889a97e",
+    "type": "case",
+    "code": "APL",
+    "name": "Applicative",
+    "description": "The entity/act/event which constitutes the circumstantial, potentially one-time, temporary purpose of another entity/act/event.'for the (circumstantial/temporary/one-time) purpose of X', 'being used (temporarily/circumstantially) as X'.",
+    "source_type": "grammar",
+    "confidence": "HIGH",
+    "citation": "Official Ithkuil IV Grammar, §7 (Cases)",
+    "when_to_use": "Use Applicative when: The entity/act/event which constitutes the circumstantial, potentially one-time, temporary purpose of another entity/act/event.'for the (circumstantial/temporary/one-time) purpose ",
+    "why_not_alternatives": {
+      "PUR": "PUR for inherent purpose; APL for temporary/circumstantial use",
+      "TRA": "TRA marks beneficiary; APL marks temporary purpose",
+      "FUN": "FUN describes manner; APL describes purpose"
+    },
+    "common_mistakes": [
+      "APL for temporary/circumstantial purpose only",
+      "Use PUR for inherent/designed purpose"
+    ],
+    "embedding_text": "Applicative in Ithkuil\nThe entity/act/event which constitutes the circumstantial, potentially one-time, temporary purpose of another entity/act/event.'for the (circumstantial/temporary/one-time) purpose of X', 'being used (temporarily/circumstantially) as X'.\nApplicative case\nAPL Ithkuil\nwhen to use Applicative\nhow to express applicative\npurpose",
+    "slot": 9,
+    "category": "case",
+    "semantic_role": "PURPOSE"
+  },
+  {
+    "id": "c37ae305ba59",
+    "type": "case",
+    "code": "PUR",
+    "name": "Purposive",
+    "description": "The entity/act/event which constitutes the inherent/innate/intrinsic purpose of another entity/act/event.'for the (dedicated) purpose/function of X'",
+    "source_type": "grammar",
+    "confidence": "HIGH",
+    "citation": "Official Ithkuil IV Grammar, §7 (Cases)",
+    "when_to_use": "Use Purposive when: The entity/act/event which constitutes the inherent/innate/intrinsic purpose of another entity/act/event.'for the (dedicated) purpose/function of X'",
+    "why_not_alternatives": {
+      "APL": "APL for temporary purpose; PUR for inherent/designed function",
+      "TRA": "TRA marks beneficiary; PUR marks intended function",
+      "RSL": "RSL is the result achieved; PUR is the intended purpose"
+    },
+    "common_mistakes": [
+      "PUR for inherent function (what it's designed for)",
+      "Don't use for one-time/temporary purposes (use APL)"
+    ],
+    "embedding_text": "Purposive in Ithkuil\nThe entity/act/event which constitutes the inherent/innate/intrinsic purpose of another entity/act/event.'for the (dedicated) purpose/function of X'\nPurposive case\nPUR Ithkuil\nwhen to use Purposive\nhow to express purposive\nfunction",
+    "slot": 9,
+    "category": "case",
+    "semantic_role": "FUNCTION"
+  },
+  {
+    "id": "152369cff66a",
+    "type": "case",
+    "code": "TRA",
+    "name": "Transmissive",
+    "description": "Renamed from the Benefactive in Ithkuil III, this case indicates the party for which/whom an entity/act/event occurs or is transmitted, with the intention that the entity/act/event be beneficial/detrimental to the named party.'for (the benefit/detriment of) X'",
+    "source_type": "grammar",
+    "confidence": "HIGH",
+    "citation": "Official Ithkuil IV Grammar, §7 (Cases)",
+    "when_to_use": "Use Transmissive when: Renamed from the Benefactive in Ithkuil III, this case indicates the party for which/whom an entity/act/event occurs or is transmitted, with the intention that the entity/act/event",
+    "why_not_alternatives": {
+      "DAT": "DAT for direct recipient; TRA for beneficiary/detriment",
+      "DFR": "DFR shows respect/deference; TRA shows benefit/harm",
+      "APL": "APL for purpose; TRA for beneficiary"
+    },
+    "common_mistakes": [
+      "Can indicate benefit OR detriment (use context)",
+      "Different from DAT (actual recipient vs beneficiary)"
+    ],
+    "embedding_text": "Transmissive in Ithkuil\nRenamed from the Benefactive in Ithkuil III, this case indicates the party for which/whom an entity/act/event occurs or is transmitted, with the intention that the entity/act/event be beneficial/detrimental to the named party.'for (the benefit/detriment of) X'\nTransmissive case\nTRA Ithkuil\nwhen to use Transmissive\nhow to express transmissive\nbeneficiary",
+    "slot": 9,
+    "category": "case",
+    "semantic_role": "BENEFICIARY"
+  },
+  {
+    "id": "e49f3067f366",
+    "type": "case",
+    "code": "DFR",
+    "name": "Deferential",
+    "description": "The entity for whose sake, or out of deference/respect to whom, an act/event occurs.'for X's sake', 'out of deference for X', 'out of respect for X'",
+    "source_type": "grammar",
+    "confidence": "HIGH",
+    "citation": "Official Ithkuil IV Grammar, §7 (Cases)",
+    "when_to_use": "Use Deferential when: The entity for whose sake, or out of deference/respect to whom, an act/event occurs.'for X's sake', 'out of deference for X', 'out of respect for X'",
+    "why_not_alternatives": {
+      "APL": "APL (Applicative) serves a different role",
+      "PUR": "PUR (Purposive) serves a different role",
+      "TRA": "TRA (Transmissive) serves a different role"
+    },
+    "common_mistakes": [
+      "Study the specific semantic distinctions of Deferential",
+      "Compare with related cases in Associative category"
+    ],
+    "embedding_text": "Deferential in Ithkuil\nThe entity for whose sake, or out of deference/respect to whom, an act/event occurs.'for X's sake', 'out of deference for X', 'out of respect for X'\nDeferential case\nDFR Ithkuil\nwhen to use Deferential\nhow to express deferential\nhonoree",
+    "slot": 9,
+    "category": "case",
+    "semantic_role": "HONOREE"
+  },
+  {
+    "id": "3d87f302c899",
+    "type": "case",
+    "code": "CRS",
+    "name": "Contrastive",
+    "description": "The party for which something is substituted, or of which another party/entity takes its place;'instead of X', 'as a substitute for X', 'in place of X'",
+    "source_type": "grammar",
+    "confidence": "HIGH",
+    "citation": "Official Ithkuil IV Grammar, §7 (Cases)",
+    "when_to_use": "Use Contrastive when: The party for which something is substituted, or of which another party/entity takes its place;'instead of X', 'as a substitute for X', 'in place of X'",
+    "why_not_alternatives": {
+      "APL": "APL (Applicative) serves a different role",
+      "PUR": "PUR (Purposive) serves a different role",
+      "TRA": "TRA (Transmissive) serves a different role"
+    },
+    "common_mistakes": [
+      "Study the specific semantic distinctions of Contrastive",
+      "Compare with related cases in Associative category"
+    ],
+    "embedding_text": "Contrastive in Ithkuil\nThe party for which something is substituted, or of which another party/entity takes its place;'instead of X', 'as a substitute for X', 'in place of X'\nContrastive case\nCRS Ithkuil\nwhen to use Contrastive\nhow to express contrastive\nsubstitute",
+    "slot": 9,
+    "category": "case",
+    "semantic_role": "SUBSTITUTE"
+  },
+  {
+    "id": "d1b70efb14d6",
+    "type": "case",
+    "code": "TSP",
+    "name": "Transposive",
+    "description": "The party on whose behalf something is/occurs.",
+    "source_type": "grammar",
+    "confidence": "HIGH",
+    "citation": "Official Ithkuil IV Grammar, §7 (Cases)",
+    "when_to_use": "Use Transposive when: The party on whose behalf something is/occurs.",
+    "why_not_alternatives": {
+      "APL": "APL (Applicative) serves a different role",
+      "PUR": "PUR (Purposive) serves a different role",
+      "TRA": "TRA (Transmissive) serves a different role"
+    },
+    "common_mistakes": [
+      "Study the specific semantic distinctions of Transposive",
+      "Compare with related cases in Associative category"
+    ],
+    "embedding_text": "Transposive in Ithkuil\nThe party on whose behalf something is/occurs.\nTransposive case\nTSP Ithkuil\nwhen to use Transposive\nhow to express transposive\nrepresentative",
+    "slot": 9,
+    "category": "case",
+    "semantic_role": "REPRESENTATIVE"
+  },
+  {
+    "id": "2938394a01c1",
+    "type": "case",
+    "code": "CMM",
+    "name": "Commutative",
+    "description": "The party in exchange for which, a reciprocal or complementary act/event occurs;e.g. He paid 100 dollars in exchange for the tickets.",
+    "source_type": "grammar",
+    "confidence": "HIGH",
+    "citation": "Official Ithkuil IV Grammar, §7 (Cases)",
+    "when_to_use": "Use Commutative when: The party in exchange for which, a reciprocal or complementary act/event occurs;e.g. He paid 100 dollars in exchange for the tickets.",
+    "why_not_alternatives": {
+      "APL": "APL (Applicative) serves a different role",
+      "PUR": "PUR (Purposive) serves a different role",
+      "TRA": "TRA (Transmissive) serves a different role"
+    },
+    "common_mistakes": [
+      "Study the specific semantic distinctions of Commutative",
+      "Compare with related cases in Associative category"
+    ],
+    "embedding_text": "Commutative in Ithkuil\nThe party in exchange for which, a reciprocal or complementary act/event occurs;e.g. He paid 100 dollars in exchange for the tickets.\nCommutative case\nCMM Ithkuil\nwhen to use Commutative\nhow to express commutative\nexchange",
+    "slot": 9,
+    "category": "case",
+    "semantic_role": "EXCHANGE"
+  },
+  {
+    "id": "7630a29ff10e",
+    "type": "case",
+    "code": "CMP",
+    "name": "Comparative",
+    "description": "The party being compared to another, translatable as 'as compared to', 'as opposed to,' 'versus'; with verbs it translates as 'whereas' or 'while' (in its synonymous usage to 'whereas').Examples: She chose the red one as opposed to the others, Sam drives a van versus Joe, who prefers a truck, At the party, she danced while/whereas I ate.",
+    "source_type": "grammar",
+    "confidence": "HIGH",
+    "citation": "Official Ithkuil IV Grammar, §7 (Cases)",
+    "when_to_use": "Use Comparative when: The party being compared to another, translatable as 'as compared to', 'as opposed to,' 'versus'; with verbs it translates as 'whereas' or 'while' (in its synonymous usage to 'wher",
+    "why_not_alternatives": {
+      "APL": "APL (Applicative) serves a different role",
+      "PUR": "PUR (Purposive) serves a different role",
+      "TRA": "TRA (Transmissive) serves a different role"
+    },
+    "common_mistakes": [
+      "Study the specific semantic distinctions of Comparative",
+      "Compare with related cases in Associative category"
+    ],
+    "embedding_text": "Comparative in Ithkuil\nThe party being compared to another, translatable as 'as compared to', 'as opposed to,' 'versus'; with verbs it translates as 'whereas' or 'while' (in its synonymous usage to 'whereas').Examples: She chose the red one as opposed to the others, Sam drives a van versus Joe, who prefers a truck, At the party, she danced while/whereas I ate.\nComparative case\nCMP Ithkuil\nwhen to use Comparative\nhow to express comparative\ncomparison",
+    "slot": 9,
+    "category": "case",
+    "semantic_role": "COMPARISON"
+  },
+  {
+    "id": "55e6a624f50f",
+    "type": "case",
+    "code": "CSD",
+    "name": "Considerative",
+    "description": "The entity according to which, another entity is, or an act/event occurs.",
+    "source_type": "grammar",
+    "confidence": "HIGH",
+    "citation": "Official Ithkuil IV Grammar, §7 (Cases)",
+    "when_to_use": "Use Considerative when: The entity according to which, another entity is, or an act/event occurs.",
+    "why_not_alternatives": {
+      "APL": "APL (Applicative) serves a different role",
+      "PUR": "PUR (Purposive) serves a different role",
+      "TRA": "TRA (Transmissive) serves a different role"
+    },
+    "common_mistakes": [
+      "Study the specific semantic distinctions of Considerative",
+      "Compare with related cases in Associative category"
+    ],
+    "embedding_text": "Considerative in Ithkuil\nThe entity according to which, another entity is, or an act/event occurs.\nConsiderative case\nCSD Ithkuil\nwhen to use Considerative\nhow to express considerative\nstandard",
+    "slot": 9,
+    "category": "case",
+    "semantic_role": "STANDARD"
+  },
+  {
+    "id": "362b167d91dd",
+    "type": "case",
+    "code": "FUN",
+    "name": "Functive",
+    "description": "Identifies a noun used to describe/characterize the manner in which an act/event/state occurs or exists,e.g. She dances gracefully; The boys ate with gusto; That clown is speaking nonsense; Father speaks with such fortitude.",
+    "source_type": "grammar",
+    "confidence": "HIGH",
+    "citation": "Official Ithkuil IV Grammar, §7 (Cases)",
+    "when_to_use": "Use Functive when: Identifies a noun used to describe/characterize the manner in which an act/event/state occurs or exists,e.g. She dances gracefully; The boys ate with gusto; That clown is speaking ",
+    "why_not_alternatives": {
+      "TFM": "TFM shows transformation result; FUN shows manner",
+      "APL": "APL shows purpose; FUN shows manner of being/acting",
+      "RSL": "RSL is outcome; FUN is mode of action"
+    },
+    "common_mistakes": [
+      "Study the specific semantic distinctions of Functive",
+      "Compare with related cases in Adverbial category"
+    ],
+    "embedding_text": "Functive in Ithkuil\nIdentifies a noun used to describe/characterize the manner in which an act/event/state occurs or exists,e.g. She dances gracefully; The boys ate with gusto; That clown is speaking nonsense; Father speaks with such fortitude.\nFunctive case\nFUN Ithkuil\nwhen to use Functive\nhow to express functive\nmanner",
+    "slot": 9,
+    "category": "case",
+    "semantic_role": "MANNER"
+  },
+  {
+    "id": "b109a99019a5",
+    "type": "case",
+    "code": "TFM",
+    "name": "Transformative",
+    "description": "Identifies the outcome or final state of a process, often translatable by 'to,' 'until,' or 'into' in the sense of reaching a final state after undergoing some transformation.Examples: The house burned to ashes, Mother reached a state of tranquility, The clowns will turn our children into slaves, Her father drank himself to death",
+    "source_type": "grammar",
+    "confidence": "HIGH",
+    "citation": "Official Ithkuil IV Grammar, §7 (Cases)",
+    "when_to_use": "Use Transformative when: Identifies the outcome or final state of a process, often translatable by 'to,' 'until,' or 'into' in the sense of reaching a final state after undergoing some transformation.Examp",
+    "why_not_alternatives": {
+      "FUN": "FUN (Functive) serves a different role",
+      "CLA": "CLA (Classificative) serves a different role"
+    },
+    "common_mistakes": [
+      "Study the specific semantic distinctions of Transformative",
+      "Compare with related cases in Adverbial category"
+    ],
+    "embedding_text": "Transformative in Ithkuil\nIdentifies the outcome or final state of a process, often translatable by 'to,' 'until,' or 'into' in the sense of reaching a final state after undergoing some transformation.Examples: The house burned to ashes, Mother reached a state of tranquility, The clowns will turn our children into slaves, Her father drank himself to death\nTransformative case\nTFM Ithkuil\nwhen to use Transformative\nhow to express transformative\ntransformation",
+    "slot": 9,
+    "category": "case",
+    "semantic_role": "TRANSFORMATION"
+  },
+  {
+    "id": "0a49cd9f4632",
+    "type": "case",
+    "code": "CLA",
+    "name": "Classificative",
+    "description": "Identifies a noun as a basis for arranging, sorting, classifying, or counting,e.g. Place them in groups of three, The workers arranged the tables in rows, He lay down lengthwise, Can you count by fives?, I will sort them by color.Also identifies the basis for recurring increments,e.g. month by month; day in, day out; box upon box, clown after clown.",
+    "source_type": "grammar",
+    "confidence": "HIGH",
+    "citation": "Official Ithkuil IV Grammar, §7 (Cases)",
+    "when_to_use": "Use Classificative when: Identifies a noun as a basis for arranging, sorting, classifying, or counting,e.g. Place them in groups of three, The workers arranged the tables in rows, He lay down lengthwise, C",
+    "why_not_alternatives": {
+      "FUN": "FUN (Functive) serves a different role",
+      "TFM": "TFM (Transformative) serves a different role"
+    },
+    "common_mistakes": [
+      "Study the specific semantic distinctions of Classificative",
+      "Compare with related cases in Adverbial category"
+    ],
+    "embedding_text": "Classificative in Ithkuil\nIdentifies a noun as a basis for arranging, sorting, classifying, or counting,e.g. Place them in groups of three, The workers arranged the tables in rows, He lay down lengthwise, Can you count by fives?, I will sort them by color.Also identifies the basis for recurring increments,e.g. month by month; day in, day out; box upon box, clown after clown.\nClassificative case\nCLA Ithkuil\nwhen to use Classificative\nhow to express classificative\nclass",
+    "slot": 9,
+    "category": "case",
+    "semantic_role": "CLASS"
+  },
+  {
+    "id": "38b2fddee0a9",
+    "type": "case",
+    "code": "RSL",
+    "name": "Resultative",
+    "description": "Identifies a result/consequence, translatable as 'resulting in X', 'with X as a consequence', etc.",
+    "source_type": "grammar",
+    "confidence": "HIGH",
+    "citation": "Official Ithkuil IV Grammar, §7 (Cases)",
+    "when_to_use": "Use Resultative when: Identifies a result/consequence, translatable as 'resulting in X', 'with X as a consequence', etc.",
+    "why_not_alternatives": {
+      "PUR": "PUR is intended purpose; RSL is actual result",
+      "TFM": "TFM shows state transformation; RSL shows outcome",
+      "EFF": "EFF is causer; RSL is the result"
+    },
+    "common_mistakes": [
+      "Study the specific semantic distinctions of Resultative",
+      "Compare with related cases in Adverbial category"
+    ],
+    "embedding_text": "Resultative in Ithkuil\nIdentifies a result/consequence, translatable as 'resulting in X', 'with X as a consequence', etc.\nResultative case\nRSL Ithkuil\nwhen to use Resultative\nhow to express resultative\nresult",
+    "slot": 9,
+    "category": "case",
+    "semantic_role": "RESULT"
+  },
+  {
+    "id": "67bd7426e7aa",
+    "type": "case",
+    "code": "CSM",
+    "name": "Consumptive",
+    "description": "Identifies the entity consumed or used as a resource as a result of, or as a concurrent part of a process,e.g. She cooks with tomatoes, The clown fed her an apple, He reads by candle(light).",
+    "source_type": "grammar",
+    "confidence": "HIGH",
+    "citation": "Official Ithkuil IV Grammar, §7 (Cases)",
+    "when_to_use": "Use Consumptive when: Identifies the entity consumed or used as a resource as a result of, or as a concurrent part of a process,e.g. She cooks with tomatoes, The clown fed her an apple, He reads by cand",
+    "why_not_alternatives": {
+      "FUN": "FUN (Functive) serves a different role",
+      "TFM": "TFM (Transformative) serves a different role",
+      "CLA": "CLA (Classificative) serves a different role"
+    },
+    "common_mistakes": [
+      "Study the specific semantic distinctions of Consumptive",
+      "Compare with related cases in Adverbial category"
+    ],
+    "embedding_text": "Consumptive in Ithkuil\nIdentifies the entity consumed or used as a resource as a result of, or as a concurrent part of a process,e.g. She cooks with tomatoes, The clown fed her an apple, He reads by candle(light).\nConsumptive case\nCSM Ithkuil\nwhen to use Consumptive\nhow to express consumptive\nconsumption",
+    "slot": 9,
+    "category": "case",
+    "semantic_role": "CONSUMPTION"
+  },
+  {
+    "id": "49c542a6b0eb",
+    "type": "case",
+    "code": "CON",
+    "name": "Concessive",
+    "description": "Identifies a noun or phrase which gives rise to an implicitly expected result which does not occur. This translates in many ways such as 'despite,' 'in spite of,' 'notwithstanding,' 'although,' 'regardless of,' 'no matter what,' etc.Examples: In spite of his stupidity, he passed the test; The law notwithstanding, I will stand my ground; No matter how ignorant (they may be), they are welcome; Although a foreigner, we will let him in.",
+    "source_type": "grammar",
+    "confidence": "HIGH",
+    "citation": "Official Ithkuil IV Grammar, §7 (Cases)",
+    "when_to_use": "Use Concessive when: Identifies a noun or phrase which gives rise to an implicitly expected result which does not occur. This translates in many ways such as 'despite,' 'in spite of,' 'notwithstanding,",
+    "why_not_alternatives": {
+      "FUN": "FUN (Functive) serves a different role",
+      "TFM": "TFM (Transformative) serves a different role",
+      "CLA": "CLA (Classificative) serves a different role"
+    },
+    "common_mistakes": [
+      "Study the specific semantic distinctions of Concessive",
+      "Compare with related cases in Adverbial category"
+    ],
+    "embedding_text": "Concessive in Ithkuil\nIdentifies a noun or phrase which gives rise to an implicitly expected result which does not occur. This translates in many ways such as 'despite,' 'in spite of,' 'notwithstanding,' 'although,' 'regardless of,' 'no matter what,' etc.Examples: In spite of his stupidity, he passed the test; The law notwithstanding, I will stand my ground; No matter how ignorant (they may be), they are welcome; Although a foreigner, we will let him in.\nConcessive case\nCON Ithkuil\nwhen to use Concessive\nhow to express concessive\nconcession",
+    "slot": 9,
+    "category": "case",
+    "semantic_role": "CONCESSION"
+  },
+  {
+    "id": "007471034c19",
+    "type": "case",
+    "code": "AVR",
+    "name": "Aversive",
+    "description": "Identifies a source or object of fear and/or avoidance. With nouns, it translates expressions such as 'for fear of,' 'in order to avoid,' or 'in avoidance of.' With verbs, it would translate English ‘lest.’Examples: She finished her plate for fear of my wrath, I traveled by night to avoid the sun. Hide the children, lest the clowns find them.",
+    "source_type": "grammar",
+    "confidence": "HIGH",
+    "citation": "Official Ithkuil IV Grammar, §7 (Cases)",
+    "when_to_use": "Use Aversive when: Identifies a source or object of fear and/or avoidance. With nouns, it translates expressions such as 'for fear of,' 'in order to avoid,' or 'in avoidance of.' With verbs, it would",
+    "why_not_alternatives": {
+      "FUN": "FUN (Functive) serves a different role",
+      "TFM": "TFM (Transformative) serves a different role",
+      "CLA": "CLA (Classificative) serves a different role"
+    },
+    "common_mistakes": [
+      "Study the specific semantic distinctions of Aversive",
+      "Compare with related cases in Adverbial category"
+    ],
+    "embedding_text": "Aversive in Ithkuil\nIdentifies a source or object of fear and/or avoidance. With nouns, it translates expressions such as 'for fear of,' 'in order to avoid,' or 'in avoidance of.' With verbs, it would translate English ‘lest.’Examples: She finished her plate for fear of my wrath, I traveled by night to avoid the sun. Hide the children, lest the clowns find them.\nAversive case\nAVR Ithkuil\nwhen to use Aversive\nhow to express aversive\navoidance",
+    "slot": 9,
+    "category": "case",
+    "semantic_role": "AVOIDANCE"
+  },
+  {
+    "id": "e93046d00d52",
+    "type": "case",
+    "code": "CVS",
+    "name": "Conversive",
+    "description": "Identifies an exception. When the exception is to a hypothetical situation, it translates as 'unless' in verbal phrases, and 'without' for nouns,e.g. Without peace, this society is doomed; We'll be safe unless the clowns find us.If applied to a real or actual situation, it translates as 'except (for)', 'but for,' 'but (not), 'excluding', 'if not for,' 'if it wasn't for,' 'if it wasn't on account of.'If not for the rain, we would have had a good time; She loves everybody except clowns; All pets are vermin, excluding dogs; He eats almost anything but (not) spinach.",
+    "source_type": "grammar",
+    "confidence": "HIGH",
+    "citation": "Official Ithkuil IV Grammar, §7 (Cases)",
+    "when_to_use": "Use Conversive when: Identifies an exception. When the exception is to a hypothetical situation, it translates as 'unless' in verbal phrases, and 'without' for nouns,e.g. Without peace, this society is",
+    "why_not_alternatives": {
+      "FUN": "FUN (Functive) serves a different role",
+      "TFM": "TFM (Transformative) serves a different role",
+      "CLA": "CLA (Classificative) serves a different role"
+    },
+    "common_mistakes": [
+      "Study the specific semantic distinctions of Conversive",
+      "Compare with related cases in Adverbial category"
+    ],
+    "embedding_text": "Conversive in Ithkuil\nIdentifies an exception. When the exception is to a hypothetical situation, it translates as 'unless' in verbal phrases, and 'without' for nouns,e.g. Without peace, this society is doomed; We'll be safe unless the clowns find us.If applied to a real or actual situation, it translates as 'except (for)', 'but for,' 'but (not), 'excluding', 'if not for,' 'if it wasn't for,' 'if it wasn't on account of.'If not for the rain, we would have had a good time; She loves everybody except clowns; All pets are vermin, excluding dogs; He eats almost anything but (not) spinach.\nConversive case\nCVS Ithkuil\nwhen to use Conversive\nhow to express conversive\ncontrary",
+    "slot": 9,
+    "category": "case",
+    "semantic_role": "CONTRARY"
+  },
+  {
+    "id": "bbf50e4c77d3",
+    "type": "case",
+    "code": "SIT",
+    "name": "Situative",
+    "description": "Identifies a noun as the background context for a clause without implying any direct causative relationship between the background context and the associated or consequent act/state/event. It translates in many ways,e.g. Because of war, our planet will never be able to join the Federation; Given the presence of clowns, we must accept the corruption of our children; With my plan, we will defeat the enemy.Other translations include: 'inasmuch as / insofar as / to the extent that / taking X into account / in view of the fact that / given that / considering'.",
+    "source_type": "grammar",
+    "confidence": "HIGH",
+    "citation": "Official Ithkuil IV Grammar, §7 (Cases)",
+    "when_to_use": "Use Situative when: Identifies a noun as the background context for a clause without implying any direct causative relationship between the background context and the associated or consequent act/stat",
+    "why_not_alternatives": {
+      "FUN": "FUN (Functive) serves a different role",
+      "TFM": "TFM (Transformative) serves a different role",
+      "CLA": "CLA (Classificative) serves a different role"
+    },
+    "common_mistakes": [
+      "Study the specific semantic distinctions of Situative",
+      "Compare with related cases in Adverbial category"
+    ],
+    "embedding_text": "Situative in Ithkuil\nIdentifies a noun as the background context for a clause without implying any direct causative relationship between the background context and the associated or consequent act/state/event. It translates in many ways,e.g. Because of war, our planet will never be able to join the Federation; Given the presence of clowns, we must accept the corruption of our children; With my plan, we will defeat the enemy.Other translations include: 'inasmuch as / insofar as / to the extent that / taking X into account / in view of the fact that / given that / considering'.\nSituative case\nSIT Ithkuil\nwhen to use Situative\nhow to express situative\nsituation",
+    "slot": 9,
+    "category": "case",
+    "semantic_role": "SITUATION"
+  },
+  {
+    "id": "6394b72d0382",
+    "type": "case",
+    "code": "PRN",
+    "name": "Pertinential",
+    "description": "Identifies the general referent of another formative, translating such English terms as 'about,' 'regarding,' 'concerning,' 'in regard to,' 'in reference to,' 'pertaining to,' or 'as for.'",
+    "source_type": "grammar",
+    "confidence": "HIGH",
+    "citation": "Official Ithkuil IV Grammar, §7 (Cases)",
+    "when_to_use": "Use Pertinential when: Identifies the general referent of another formative, translating such English terms as 'about,' 'regarding,' 'concerning,' 'in regard to,' 'in reference to,' 'pertaining to,' or '",
+    "why_not_alternatives": {
+      "DSP": "DSP (Descriptive) serves a different role",
+      "COR": "COR (Correlative) serves a different role"
+    },
+    "common_mistakes": [
+      "Study the specific semantic distinctions of Pertinential",
+      "Compare with related cases in Relational category"
+    ],
+    "embedding_text": "Pertinential in Ithkuil\nIdentifies the general referent of another formative, translating such English terms as 'about,' 'regarding,' 'concerning,' 'in regard to,' 'in reference to,' 'pertaining to,' or 'as for.'\nPertinential case\nPRN Ithkuil\nwhen to use Pertinential\nhow to express pertinential\nrelation",
+    "slot": 9,
+    "category": "case",
+    "semantic_role": "RELATION"
+  },
+  {
+    "id": "ffa74df380a7",
+    "type": "case",
+    "code": "DSP",
+    "name": "Descriptive",
+    "description": "Identifies a formative as describing another formative in an adjectival manner, translatable as 'characterized/describable as being like X; characterized/describable as having the quality/qualities of X'",
+    "source_type": "grammar",
+    "confidence": "HIGH",
+    "citation": "Official Ithkuil IV Grammar, §7 (Cases)",
+    "when_to_use": "Use Descriptive when: Identifies a formative as describing another formative in an adjectival manner, translatable as 'characterized/describable as being like X; characterized/describable as having the ",
+    "why_not_alternatives": {
+      "PRN": "PRN (Pertinential) serves a different role",
+      "COR": "COR (Correlative) serves a different role"
+    },
+    "common_mistakes": [
+      "Study the specific semantic distinctions of Descriptive",
+      "Compare with related cases in Relational category"
+    ],
+    "embedding_text": "Descriptive in Ithkuil\nIdentifies a formative as describing another formative in an adjectival manner, translatable as 'characterized/describable as being like X; characterized/describable as having the quality/qualities of X'\nDescriptive case\nDSP Ithkuil\nwhen to use Descriptive\nhow to express descriptive\ndescription",
+    "slot": 9,
+    "category": "case",
+    "semantic_role": "DESCRIPTION"
+  },
+  {
+    "id": "998373ee6f74",
+    "type": "case",
+    "code": "COR",
+    "name": "Correlative",
+    "description": "Indicates an abstract general relationship, association, or conjunction between one formative and another, including subjective, contextual, metaphorical, or symbolic associations. It translates general phrases such as 'relative to,' 'in relation to,' 'in correlation with,' 'in association with,'e.g. career goals, the soup of the day, the direction of that road, The elapsed time relative to the distance determines the winner, Our next topic is sex and/in art (i.e., the relationship between art and sex).",
+    "source_type": "grammar",
+    "confidence": "HIGH",
+    "citation": "Official Ithkuil IV Grammar, §7 (Cases)",
+    "when_to_use": "Use Correlative when: Indicates an abstract general relationship, association, or conjunction between one formative and another, including subjective, contextual, metaphorical, or symbolic associations.",
+    "why_not_alternatives": {
+      "PRN": "PRN (Pertinential) serves a different role",
+      "DSP": "DSP (Descriptive) serves a different role"
+    },
+    "common_mistakes": [
+      "Study the specific semantic distinctions of Correlative",
+      "Compare with related cases in Relational category"
+    ],
+    "embedding_text": "Correlative in Ithkuil\nIndicates an abstract general relationship, association, or conjunction between one formative and another, including subjective, contextual, metaphorical, or symbolic associations. It translates general phrases such as 'relative to,' 'in relation to,' 'in correlation with,' 'in association with,'e.g. career goals, the soup of the day, the direction of that road, The elapsed time relative to the distance determines the winner, Our next topic is sex and/in art (i.e., the relationship between art and sex).\nCorrelative case\nCOR Ithkuil\nwhen to use Correlative\nhow to express correlative\ncorrelation",
+    "slot": 9,
+    "category": "case",
+    "semantic_role": "CORRELATION"
+  },
+  {
+    "id": "c3d96c65108b",
+    "type": "case",
+    "code": "CPS",
+    "name": "Compositive",
+    "description": "Identifies a noun as being the literal or figurative substance or component(s) of which another is made, composed, formed, built or comprised.Example of usage would be That statue was carved out of marble, She owns three gold(en) coins, We were caught in a web of lies, I use a wooden ladder, It was a house of cards, Three suits comprise his wardrobe, Joe detests styrofoam cups.",
+    "source_type": "grammar",
+    "confidence": "HIGH",
+    "citation": "Official Ithkuil IV Grammar, §7 (Cases)",
+    "when_to_use": "Use Compositive when: Identifies a noun as being the literal or figurative substance or component(s) of which another is made, composed, formed, built or comprised.Example of usage would be That statue ",
+    "why_not_alternatives": {
+      "PRN": "PRN (Pertinential) serves a different role",
+      "DSP": "DSP (Descriptive) serves a different role",
+      "COR": "COR (Correlative) serves a different role"
+    },
+    "common_mistakes": [
+      "Study the specific semantic distinctions of Compositive",
+      "Compare with related cases in Relational category"
+    ],
+    "embedding_text": "Compositive in Ithkuil\nIdentifies a noun as being the literal or figurative substance or component(s) of which another is made, composed, formed, built or comprised.Example of usage would be That statue was carved out of marble, She owns three gold(en) coins, We were caught in a web of lies, I use a wooden ladder, It was a house of cards, Three suits comprise his wardrobe, Joe detests styrofoam cups.\nCompositive case\nCPS Ithkuil\nwhen to use Compositive\nhow to express compositive\ncomposition",
+    "slot": 9,
+    "category": "case",
+    "semantic_role": "COMPOSITION"
+  },
+  {
+    "id": "274d6488f916",
+    "type": "case",
+    "code": "COM",
+    "name": "Comitative",
+    "description": "Identifies a formative that accompanies another, translatable as '(along) with'. When used with Parallel or Complementary valence, signifies that the formative is being used in the same (or a complementary) way or is undergoing the same (or a complementary) activity as the other formative it is associated with(i.e., the meaning of the Conjunctive case in Ithkuil III).",
+    "source_type": "grammar",
+    "confidence": "HIGH",
+    "citation": "Official Ithkuil IV Grammar, §7 (Cases)",
+    "when_to_use": "Use Comitative when: Identifies a formative that accompanies another, translatable as '(along) with'. When used with Parallel or Complementary valence, signifies that the formative is being used in the",
+    "why_not_alternatives": {
+      "PRN": "PRN (Pertinential) serves a different role",
+      "DSP": "DSP (Descriptive) serves a different role",
+      "COR": "COR (Correlative) serves a different role"
+    },
+    "common_mistakes": [
+      "Study the specific semantic distinctions of Comitative",
+      "Compare with related cases in Relational category"
+    ],
+    "embedding_text": "Comitative in Ithkuil\nIdentifies a formative that accompanies another, translatable as '(along) with'. When used with Parallel or Complementary valence, signifies that the formative is being used in the same (or a complementary) way or is undergoing the same (or a complementary) activity as the other formative it is associated with(i.e., the meaning of the Conjunctive case in Ithkuil III).\nComitative case\nCOM Ithkuil\nwhen to use Comitative\nhow to express comitative\naccompaniment",
+    "slot": 9,
+    "category": "case",
+    "semantic_role": "ACCOMPANIMENT"
+  },
+  {
+    "id": "989833e824db",
+    "type": "case",
+    "code": "UTL",
+    "name": "Utilitative",
+    "description": "Identifies a formative in the process of being used while some other activity or state is in progress. It does not imply the INSTRUMENT of an act as does the instrumental case.Examples: the gun-wielding man, the umbrella-toting pedestrian, a girl with backpack (on).",
+    "source_type": "grammar",
+    "confidence": "HIGH",
+    "citation": "Official Ithkuil IV Grammar, §7 (Cases)",
+    "when_to_use": "Use Utilitative when: Identifies a formative in the process of being used while some other activity or state is in progress. It does not imply the INSTRUMENT of an act as does the instrumental case.Exam",
+    "why_not_alternatives": {
+      "PRN": "PRN (Pertinential) serves a different role",
+      "DSP": "DSP (Descriptive) serves a different role",
+      "COR": "COR (Correlative) serves a different role"
+    },
+    "common_mistakes": [
+      "Study the specific semantic distinctions of Utilitative",
+      "Compare with related cases in Relational category"
+    ],
+    "embedding_text": "Utilitative in Ithkuil\nIdentifies a formative in the process of being used while some other activity or state is in progress. It does not imply the INSTRUMENT of an act as does the instrumental case.Examples: the gun-wielding man, the umbrella-toting pedestrian, a girl with backpack (on).\nUtilitative case\nUTL Ithkuil\nwhen to use Utilitative\nhow to express utilitative\nuse",
+    "slot": 9,
+    "category": "case",
+    "semantic_role": "USE"
+  },
+  {
+    "id": "0b386457468c",
+    "type": "case",
+    "code": "PRD",
+    "name": "Predicative",
+    "description": "Identifies the non-causal basis, foundation, sustenance (literally or figuratively), or required existential condition for another noun or clause, translatable by the phrases 'based (up)on,' 'dependent (up)on' or 'relying on.'Examples of use are a book dependent on a publisher, a man relying on charity, laws based in reason, success supported by corruption.",
+    "source_type": "grammar",
+    "confidence": "HIGH",
+    "citation": "Official Ithkuil IV Grammar, §7 (Cases)",
+    "when_to_use": "Use Predicative when: Identifies the non-causal basis, foundation, sustenance (literally or figuratively), or required existential condition for another noun or clause, translatable by the phrases 'base",
+    "why_not_alternatives": {
+      "PRN": "PRN (Pertinential) serves a different role",
+      "DSP": "DSP (Descriptive) serves a different role",
+      "COR": "COR (Correlative) serves a different role"
+    },
+    "common_mistakes": [
+      "Study the specific semantic distinctions of Predicative",
+      "Compare with related cases in Relational category"
+    ],
+    "embedding_text": "Predicative in Ithkuil\nIdentifies the non-causal basis, foundation, sustenance (literally or figuratively), or required existential condition for another noun or clause, translatable by the phrases 'based (up)on,' 'dependent (up)on' or 'relying on.'Examples of use are a book dependent on a publisher, a man relying on charity, laws based in reason, success supported by corruption.\nPredicative case\nPRD Ithkuil\nwhen to use Predicative\nhow to express predicative\nbasis",
+    "slot": 9,
+    "category": "case",
+    "semantic_role": "BASIS"
+  },
+  {
+    "id": "b40210d9202c",
+    "type": "case",
+    "code": "RLT",
+    "name": "Relative",
+    "description": "Identifies a formative (or case-frame) as constituting a relative clause associated with the preceding formative (or whatever formative is indicated by the DCD affix as being the head of the relative clause).NOTE: a lone formative in Relative case not functioning as an external head of a relative clause need not be in Framed Relation.",
+    "source_type": "grammar",
+    "confidence": "HIGH",
+    "citation": "Official Ithkuil IV Grammar, §7 (Cases)",
+    "when_to_use": "Use Relative when: Identifies a formative (or case-frame) as constituting a relative clause associated with the preceding formative (or whatever formative is indicated by the DCD affix as being the h",
+    "why_not_alternatives": {
+      "PRN": "PRN (Pertinential) serves a different role",
+      "DSP": "DSP (Descriptive) serves a different role",
+      "COR": "COR (Correlative) serves a different role"
+    },
+    "common_mistakes": [
+      "Study the specific semantic distinctions of Relative",
+      "Compare with related cases in Relational category"
+    ],
+    "embedding_text": "Relative in Ithkuil\nIdentifies a formative (or case-frame) as constituting a relative clause associated with the preceding formative (or whatever formative is indicated by the DCD affix as being the head of the relative clause).NOTE: a lone formative in Relative case not functioning as an external head of a relative clause need not be in Framed Relation.\nRelative case\nRLT Ithkuil\nwhen to use Relative\nhow to express relative\nrelative",
+    "slot": 9,
+    "category": "case",
+    "semantic_role": "RELATIVE"
+  },
+  {
+    "id": "f1800c3484ea",
+    "type": "case",
+    "code": "ACT",
+    "name": "Activative",
+    "description": "Identifies the Experiencer of a modal state, such as obligation, necessity, desire, hope, expectation, wishing, being able to, etc. functioning as the \"subject\" of a modal(ized) verb governing a hypothetical state (i.e., what is wanted, needed, expected, able to be done, etc.)",
+    "source_type": "grammar",
+    "confidence": "HIGH",
+    "citation": "Official Ithkuil IV Grammar, §7 (Cases)",
+    "when_to_use": "Use Activative when: Identifies the Experiencer of a modal state, such as obligation, necessity, desire, hope, expectation, wishing, being able to, etc. functioning as the \"subject\" of a modal(ized) ve",
+    "why_not_alternatives": {
+      "ASI": "ASI (Assimilative) serves a different role",
+      "ESS": "ESS (Essive) serves a different role"
+    },
+    "common_mistakes": [
+      "Study the specific semantic distinctions of Activative",
+      "Compare with related cases in Affinitive category"
+    ],
+    "embedding_text": "Activative in Ithkuil\nIdentifies the Experiencer of a modal state, such as obligation, necessity, desire, hope, expectation, wishing, being able to, etc. functioning as the \"subject\" of a modal(ized) verb governing a hypothetical state (i.e., what is wanted, needed, expected, able to be done, etc.)\nActivative case\nACT Ithkuil\nwhen to use Activative\nhow to express activative\nactivation",
+    "slot": 9,
+    "category": "case",
+    "semantic_role": "ACTIVATION"
+  },
+  {
+    "id": "925c0356cd5d",
+    "type": "case",
+    "code": "ASI",
+    "name": "Assimilative",
+    "description": "Identifies a formative used as a context for analogy or metaphorical comparison to another formative; translatable as 'as/like' meaning 'as if (it were) X' in the sense of comparison or analogy between one thing and another that it is not,e.g. She sings like a bird; Treat her as/like a princess (= as if she were a princess); He talks like a child (even though he's an adult).",
+    "source_type": "grammar",
+    "confidence": "HIGH",
+    "citation": "Official Ithkuil IV Grammar, §7 (Cases)",
+    "when_to_use": "Use Assimilative when: Identifies a formative used as a context for analogy or metaphorical comparison to another formative; translatable as 'as/like' meaning 'as if (it were) X' in the sense of comparis",
+    "why_not_alternatives": {
+      "ACT": "ACT (Activative) serves a different role",
+      "ESS": "ESS (Essive) serves a different role"
+    },
+    "common_mistakes": [
+      "Study the specific semantic distinctions of Assimilative",
+      "Compare with related cases in Affinitive category"
+    ],
+    "embedding_text": "Assimilative in Ithkuil\nIdentifies a formative used as a context for analogy or metaphorical comparison to another formative; translatable as 'as/like' meaning 'as if (it were) X' in the sense of comparison or analogy between one thing and another that it is not,e.g. She sings like a bird; Treat her as/like a princess (= as if she were a princess); He talks like a child (even though he's an adult).\nAssimilative case\nASI Ithkuil\nwhen to use Assimilative\nhow to express assimilative\nsimilarity",
+    "slot": 9,
+    "category": "case",
+    "semantic_role": "SIMILARITY"
+  },
+  {
+    "id": "9d2aa0f67a0c",
+    "type": "case",
+    "code": "ESS",
+    "name": "Essive",
+    "description": "Identifies the role or name by which an entity is known or contextually identified. It translates English 'as/like' in the sense of naming or reference to the an entity's functional identity,e.g. They called him a clown, The woman entered the club as an equal of any man, We consider you our only hope, Treat her as/like a princess (because she is one), He talks like a child (because he is a child).",
+    "source_type": "grammar",
+    "confidence": "HIGH",
+    "citation": "Official Ithkuil IV Grammar, §7 (Cases)",
+    "when_to_use": "Use Essive when: Identifies the role or name by which an entity is known or contextually identified. It translates English 'as/like' in the sense of naming or reference to the an entity's functiona",
+    "why_not_alternatives": {
+      "ACT": "ACT (Activative) serves a different role",
+      "ASI": "ASI (Assimilative) serves a different role"
+    },
+    "common_mistakes": [
+      "Study the specific semantic distinctions of Essive",
+      "Compare with related cases in Affinitive category"
+    ],
+    "embedding_text": "Essive in Ithkuil\nIdentifies the role or name by which an entity is known or contextually identified. It translates English 'as/like' in the sense of naming or reference to the an entity's functional identity,e.g. They called him a clown, The woman entered the club as an equal of any man, We consider you our only hope, Treat her as/like a princess (because she is one), He talks like a child (because he is a child).\nEssive case\nESS Ithkuil\nwhen to use Essive\nhow to express essive\nessence",
+    "slot": 9,
+    "category": "case",
+    "semantic_role": "ESSENCE"
+  },
+  {
+    "id": "18be8284dc72",
+    "type": "case",
+    "code": "TRM",
+    "name": "Terminative",
+    "description": "Identifies a noun as being the goal of an act/event,e.g. We seek a new planet; a desire to see his homeland; an academy for (making) champions.",
+    "source_type": "grammar",
+    "confidence": "HIGH",
+    "citation": "Official Ithkuil IV Grammar, §7 (Cases)",
+    "when_to_use": "Use Terminative when: Identifies a noun as being the goal of an act/event,e.g. We seek a new planet; a desire to see his homeland; an academy for (making) champions.",
+    "why_not_alternatives": {
+      "ACT": "ACT (Activative) serves a different role",
+      "ASI": "ASI (Assimilative) serves a different role",
+      "ESS": "ESS (Essive) serves a different role"
+    },
+    "common_mistakes": [
+      "Study the specific semantic distinctions of Terminative",
+      "Compare with related cases in Affinitive category"
+    ],
+    "embedding_text": "Terminative in Ithkuil\nIdentifies a noun as being the goal of an act/event,e.g. We seek a new planet; a desire to see his homeland; an academy for (making) champions.\nTerminative case\nTRM Ithkuil\nwhen to use Terminative\nhow to express terminative\nterminus",
+    "slot": 9,
+    "category": "case",
+    "semantic_role": "TERMINUS"
+  },
+  {
+    "id": "125e1c6f2c53",
+    "type": "case",
+    "code": "SEL",
+    "name": "Selective",
+    "description": "Identifies a contextually recurring time-period, as well as a string of recurring entities,e.g. I visit him every three days; Each year, I travel to the Clown Planet; He works nights; By day, she is an artisan; The clowns visit us on Sundays; ...every third book; ...every green one.",
+    "source_type": "grammar",
+    "confidence": "HIGH",
+    "citation": "Official Ithkuil IV Grammar, §7 (Cases)",
+    "when_to_use": "Use Selective when: Identifies a contextually recurring time-period, as well as a string of recurring entities,e.g. I visit him every three days; Each year, I travel to the Clown Planet; He works nigh",
+    "why_not_alternatives": {
+      "ACT": "ACT (Activative) serves a different role",
+      "ASI": "ASI (Assimilative) serves a different role",
+      "ESS": "ESS (Essive) serves a different role"
+    },
+    "common_mistakes": [
+      "Study the specific semantic distinctions of Selective",
+      "Compare with related cases in Affinitive category"
+    ],
+    "embedding_text": "Selective in Ithkuil\nIdentifies a contextually recurring time-period, as well as a string of recurring entities,e.g. I visit him every three days; Each year, I travel to the Clown Planet; He works nights; By day, she is an artisan; The clowns visit us on Sundays; ...every third book; ...every green one.\nSelective case\nSEL Ithkuil\nwhen to use Selective\nhow to express selective\nselection",
+    "slot": 9,
+    "category": "case",
+    "semantic_role": "SELECTION"
+  },
+  {
+    "id": "d8b91ae93772",
+    "type": "case",
+    "code": "CFM",
+    "name": "Conformative",
+    "description": "The entity pursuant to which, as per which, or in conformance with which, another entity is, or an act/event occurs.",
+    "source_type": "grammar",
+    "confidence": "HIGH",
+    "citation": "Official Ithkuil IV Grammar, §7 (Cases)",
+    "when_to_use": "Use Conformative when: The entity pursuant to which, as per which, or in conformance with which, another entity is, or an act/event occurs.",
+    "why_not_alternatives": {
+      "ACT": "ACT (Activative) serves a different role",
+      "ASI": "ASI (Assimilative) serves a different role",
+      "ESS": "ESS (Essive) serves a different role"
+    },
+    "common_mistakes": [
+      "Study the specific semantic distinctions of Conformative",
+      "Compare with related cases in Affinitive category"
+    ],
+    "embedding_text": "Conformative in Ithkuil\nThe entity pursuant to which, as per which, or in conformance with which, another entity is, or an act/event occurs.\nConformative case\nCFM Ithkuil\nwhen to use Conformative\nhow to express conformative\nconformity",
+    "slot": 9,
+    "category": "case",
+    "semantic_role": "CONFORMITY"
+  },
+  {
+    "id": "e1ec2e4d22ba",
+    "type": "case",
+    "code": "DEP",
+    "name": "Dependent",
+    "description": "Identifies as formative as being the basis of a dependency phrase on which another formative or phrase acts as the contingency, translatable as '...if the circumstances regarding X are such to allow/warrant it' where the final “it” refers to the original contingency noun/phrase whose existence/occurrence is (at least in part) determined by or contingent upon the dependency phrase. The exact nature of the dependency can be specified using the DPC affix.",
+    "source_type": "grammar",
+    "confidence": "HIGH",
+    "citation": "Official Ithkuil IV Grammar, §7 (Cases)",
+    "when_to_use": "Use Dependent when: Identifies as formative as being the basis of a dependency phrase on which another formative or phrase acts as the contingency, translatable as '...if the circumstances regarding X",
+    "why_not_alternatives": {
+      "ACT": "ACT (Activative) serves a different role",
+      "ASI": "ASI (Assimilative) serves a different role",
+      "ESS": "ESS (Essive) serves a different role"
+    },
+    "common_mistakes": [
+      "Study the specific semantic distinctions of Dependent",
+      "Compare with related cases in Affinitive category"
+    ],
+    "embedding_text": "Dependent in Ithkuil\nIdentifies as formative as being the basis of a dependency phrase on which another formative or phrase acts as the contingency, translatable as '...if the circumstances regarding X are such to allow/warrant it' where the final “it” refers to the original contingency noun/phrase whose existence/occurrence is (at least in part) determined by or contingent upon the dependency phrase. The exact nature of the dependency can be specified using the DPC affix.\nDependent case\nDEP Ithkuil\nwhen to use Dependent\nhow to express dependent\ncontingency",
+    "slot": 9,
+    "category": "case",
+    "semantic_role": "CONTINGENCY"
+  },
+  {
+    "id": "8db8f1438d82",
+    "type": "case",
+    "code": "VOC",
+    "name": "Vocative",
+    "description": "Signifies a noun being used in direct address.",
+    "source_type": "grammar",
+    "confidence": "HIGH",
+    "citation": "Official Ithkuil IV Grammar, §7 (Cases)",
+    "when_to_use": "Use Vocative when: Signifies a noun being used in direct address.",
+    "why_not_alternatives": {
+      "ACT": "ACT (Activative) serves a different role",
+      "ASI": "ASI (Assimilative) serves a different role",
+      "ESS": "ESS (Essive) serves a different role"
+    },
+    "common_mistakes": [
+      "Study the specific semantic distinctions of Vocative",
+      "Compare with related cases in Affinitive category"
+    ],
+    "embedding_text": "Vocative in Ithkuil\nSignifies a noun being used in direct address.\nVocative case\nVOC Ithkuil\nwhen to use Vocative\nhow to express vocative\naddress",
+    "slot": 9,
+    "category": "case",
+    "semantic_role": "ADDRESS"
+  },
+  {
+    "id": "65fab83b89c2",
+    "type": "case",
+    "code": "LOC",
+    "name": "Locative",
+    "description": "entity identified as the location where something is situated or occurs; 'at / in / on / by X'",
+    "source_type": "grammar",
+    "confidence": "HIGH",
+    "citation": "Official Ithkuil IV Grammar, §7 (Cases)",
+    "when_to_use": "Use Locative for spatial relations: entity identified as the location where something is situated or occurs; 'at / in / on / by X'",
+    "why_not_alternatives": {
+      "ALL": "ALL for movement toward; LOC for static location",
+      "ABL": "ABL for movement from; LOC for being at",
+      "ATD": "ATD for presence nearby; LOC for being at specific place"
+    },
+    "common_mistakes": [
+      "LOC for static location only",
+      "Don't use for movement (use ALL/ABL for direction)"
+    ],
+    "embedding_text": "Locative in Ithkuil\nentity identified as the location where something is situated or occurs; 'at / in / on / by X'\nLocative case\nLOC Ithkuil\nwhen to use Locative\nhow to express locative\nlocation",
+    "slot": 9,
+    "category": "case",
+    "semantic_role": "LOCATION"
+  },
+  {
+    "id": "5d1b195741b9",
+    "type": "case",
+    "code": "ATD",
+    "name": "Attendant",
+    "description": "entity in whose presence something is/occurs and which/who is thereby involved in some peripheral manner (e.g., as a witness, as a party affected or stimulated to action, etc.)",
+    "source_type": "grammar",
+    "confidence": "HIGH",
+    "citation": "Official Ithkuil IV Grammar, §7 (Cases)",
+    "when_to_use": "Use Attendant when: entity in whose presence something is/occurs and which/who is thereby involved in some peripheral manner (e.g., as a witness, as a party affected or stimulated to action, etc.)",
+    "why_not_alternatives": {
+      "LOC": "LOC (Locative) serves a different role",
+      "ALL": "ALL (Allative) serves a different role"
+    },
+    "common_mistakes": [
+      "Study the specific semantic distinctions of Attendant",
+      "Compare with related cases in Spatio-Temporal category"
+    ],
+    "embedding_text": "Attendant in Ithkuil\nentity in whose presence something is/occurs and which/who is thereby involved in some peripheral manner (e.g., as a witness, as a party affected or stimulated to action, etc.)\nAttendant case\nATD Ithkuil\nwhen to use Attendant\nhow to express attendant\npresence",
+    "slot": 9,
+    "category": "case",
+    "semantic_role": "PRESENCE"
+  },
+  {
+    "id": "793666f90640",
+    "type": "case",
+    "code": "ALL",
+    "name": "Allative",
+    "description": "entity toward which another entity is moving/approaching",
+    "source_type": "grammar",
+    "confidence": "HIGH",
+    "citation": "Official Ithkuil IV Grammar, §7 (Cases)",
+    "when_to_use": "Use Allative for spatial relations: entity toward which another entity is moving/approaching",
+    "why_not_alternatives": {
+      "LOC": "LOC for static position; ALL for movement toward",
+      "ABL": "ABL for source/from; ALL for goal/toward",
+      "NAV": "NAV for path; ALL for destination"
+    },
+    "common_mistakes": [
+      "ALL implies motion toward, not arrival",
+      "Different from LOC (destination vs location)"
+    ],
+    "embedding_text": "Allative in Ithkuil\nentity toward which another entity is moving/approaching\nAllative case\nALL Ithkuil\nwhen to use Allative\nhow to express allative\ngoal",
+    "slot": 9,
+    "category": "case",
+    "semantic_role": "GOAL"
+  },
+  {
+    "id": "2761d6631285",
+    "type": "case",
+    "code": "ABL",
+    "name": "Ablative",
+    "description": "entity away from which another entity is moving/receding",
+    "source_type": "grammar",
+    "confidence": "HIGH",
+    "citation": "Official Ithkuil IV Grammar, §7 (Cases)",
+    "when_to_use": "Use Ablative for spatial relations: entity away from which another entity is moving/receding",
+    "why_not_alternatives": {
+      "LOC": "LOC for static location; ABL for movement away from",
+      "ALL": "ALL for movement toward; ABL for movement from",
+      "OGN": "OGN for abstract origin; ABL for spatial source"
+    },
+    "common_mistakes": [
+      "ABL implies motion away from, not departure",
+      "Can be spatial or temporal origin"
+    ],
+    "embedding_text": "Ablative in Ithkuil\nentity away from which another entity is moving/receding\nAblative case\nABL Ithkuil\nwhen to use Ablative\nhow to express ablative\nsource",
+    "slot": 9,
+    "category": "case",
+    "semantic_role": "SOURCE"
+  },
+  {
+    "id": "7149895a2ad0",
+    "type": "case",
+    "code": "ORI",
+    "name": "Orientative",
+    "description": "entity (often a body part or sub-component) which serves as the “face” or surface or “front” or “head” of an entity in terms of external communication or interaction, or which serves as the forward “end” of a spatially orientated axis aligned to a vector of motion in terms of directional movement.",
+    "source_type": "grammar",
+    "confidence": "HIGH",
+    "citation": "Official Ithkuil IV Grammar, §7 (Cases)",
+    "when_to_use": "Use Orientative when: entity (often a body part or sub-component) which serves as the “face” or surface or “front” or “head” of an entity in terms of external communication or interaction, or which serv",
+    "why_not_alternatives": {
+      "LOC": "LOC (Locative) serves a different role",
+      "ATD": "ATD (Attendant) serves a different role",
+      "ALL": "ALL (Allative) serves a different role"
+    },
+    "common_mistakes": [
+      "Study the specific semantic distinctions of Orientative",
+      "Compare with related cases in Spatio-Temporal category"
+    ],
+    "embedding_text": "Orientative in Ithkuil\nentity (often a body part or sub-component) which serves as the “face” or surface or “front” or “head” of an entity in terms of external communication or interaction, or which serves as the forward “end” of a spatially orientated axis aligned to a vector of motion in terms of directional movement.\nOrientative case\nORI Ithkuil\nwhen to use Orientative\nhow to express orientative\norientation",
+    "slot": 9,
+    "category": "case",
+    "semantic_role": "ORIENTATION"
+  },
+  {
+    "id": "84d354a5c804",
+    "type": "case",
+    "code": "IRL",
+    "name": "Interrelative",
+    "description": "signifies the directional/temporal orientation or position of an entity relative to another, i.e., a noun relative to whose position in space or time another noun is being described for purposes of spatial/temporal orientation,e.g. He turned his back on me, It lies just west of the house, Tell me when the parade starts relative to my arrival.",
+    "source_type": "grammar",
+    "confidence": "HIGH",
+    "citation": "Official Ithkuil IV Grammar, §7 (Cases)",
+    "when_to_use": "Use Interrelative when: signifies the directional/temporal orientation or position of an entity relative to another, i.e., a noun relative to whose position in space or time another noun is being describe",
+    "why_not_alternatives": {
+      "LOC": "LOC (Locative) serves a different role",
+      "ATD": "ATD (Attendant) serves a different role",
+      "ALL": "ALL (Allative) serves a different role"
+    },
+    "common_mistakes": [
+      "Study the specific semantic distinctions of Interrelative",
+      "Compare with related cases in Spatio-Temporal category"
+    ],
+    "embedding_text": "Interrelative in Ithkuil\nsignifies the directional/temporal orientation or position of an entity relative to another, i.e., a noun relative to whose position in space or time another noun is being described for purposes of spatial/temporal orientation,e.g. He turned his back on me, It lies just west of the house, Tell me when the parade starts relative to my arrival.\nInterrelative case\nIRL Ithkuil\nwhen to use Interrelative\nhow to express interrelative\nreference",
+    "slot": 9,
+    "category": "case",
+    "semantic_role": "REFERENCE"
+  },
+  {
+    "id": "270a7f613078",
+    "type": "case",
+    "code": "INV",
+    "name": "Intrative",
+    "description": "Identifies a noun as being the spatio-temporal boundary point of a span or volume of space or a period of time, i.e, either the starting point or the ending point of a span of time or space.English translations include: 'as of X' / 'since X' / 'until X'; for spatial contexts, translates as “between there and here” / “between here and there”)",
+    "source_type": "grammar",
+    "confidence": "HIGH",
+    "citation": "Official Ithkuil IV Grammar, §7 (Cases)",
+    "when_to_use": "Use Intrative when: Identifies a noun as being the spatio-temporal boundary point of a span or volume of space or a period of time, i.e, either the starting point or the ending point of a span of time",
+    "why_not_alternatives": {
+      "LOC": "LOC (Locative) serves a different role",
+      "ATD": "ATD (Attendant) serves a different role",
+      "ALL": "ALL (Allative) serves a different role"
+    },
+    "common_mistakes": [
+      "Study the specific semantic distinctions of Intrative",
+      "Compare with related cases in Spatio-Temporal category"
+    ],
+    "embedding_text": "Intrative in Ithkuil\nIdentifies a noun as being the spatio-temporal boundary point of a span or volume of space or a period of time, i.e, either the starting point or the ending point of a span of time or space.English translations include: 'as of X' / 'since X' / 'until X'; for spatial contexts, translates as “between there and here” / “between here and there”)\nIntrative case\nINV Ithkuil\nwhen to use Intrative\nhow to express intrative\ndirection",
+    "slot": 9,
+    "category": "case",
+    "semantic_role": "DIRECTION"
+  },
+  {
+    "id": "59cbc4aa4c74",
+    "type": "case",
+    "code": "NAV",
+    "name": "Navigative",
+    "description": "entity whose literal or metaphorically inferred long axis serves as the direction of another entity's path, course, arc, or trajectory of translative motion",
+    "source_type": "grammar",
+    "confidence": "HIGH",
+    "citation": "Official Ithkuil IV Grammar, §7 (Cases)",
+    "when_to_use": "Use Navigative when: entity whose literal or metaphorically inferred long axis serves as the direction of another entity's path, course, arc, or trajectory of translative motion",
+    "why_not_alternatives": {
+      "LOC": "LOC (Locative) serves a different role",
+      "ATD": "ATD (Attendant) serves a different role",
+      "ALL": "ALL (Allative) serves a different role"
+    },
+    "common_mistakes": [
+      "Study the specific semantic distinctions of Navigative",
+      "Compare with related cases in Spatio-Temporal category"
+    ],
+    "embedding_text": "Navigative in Ithkuil\nentity whose literal or metaphorically inferred long axis serves as the direction of another entity's path, course, arc, or trajectory of translative motion\nNavigative case\nNAV Ithkuil\nwhen to use Navigative\nhow to express navigative\npath",
+    "slot": 9,
+    "category": "case",
+    "semantic_role": "PATH"
+  },
+  {
+    "id": "55a40f93797e",
+    "type": "case",
+    "code": "CNR",
+    "name": "Concursive",
+    "description": "Indicates a “temporal locative” meaning 'at or during the time of X', i.e., the point or stretch in time at or during which an entity or an act/event exists or occurs.",
+    "source_type": "grammar",
+    "confidence": "HIGH",
+    "citation": "Official Ithkuil IV Grammar, §7 (Cases)",
+    "when_to_use": "Use Concursive when: Indicates a “temporal locative” meaning 'at or during the time of X', i.e., the point or stretch in time at or during which an entity or an act/event exists or occurs.",
+    "why_not_alternatives": {
+      "LOC": "LOC (Locative) serves a different role",
+      "ATD": "ATD (Attendant) serves a different role",
+      "ALL": "ALL (Allative) serves a different role"
+    },
+    "common_mistakes": [
+      "Study the specific semantic distinctions of Concursive",
+      "Compare with related cases in Spatio-Temporal category"
+    ],
+    "embedding_text": "Concursive in Ithkuil\nIndicates a “temporal locative” meaning 'at or during the time of X', i.e., the point or stretch in time at or during which an entity or an act/event exists or occurs.\nConcursive case\nCNR Ithkuil\nwhen to use Concursive\nhow to express concursive\nsimultaneity",
+    "slot": 9,
+    "category": "case",
+    "semantic_role": "SIMULTANEITY"
+  },
+  {
+    "id": "76964f56367d",
+    "type": "case",
+    "code": "ASS",
+    "name": "Assessive",
+    "description": "Specifies the increment of space or time or unit by which a contextual ratio of measurement is created,e.g. He charges by the minute. It travels at 90 kilometers per hour. He earns $25 per book.",
+    "source_type": "grammar",
+    "confidence": "HIGH",
+    "citation": "Official Ithkuil IV Grammar, §7 (Cases)",
+    "when_to_use": "Use Assessive when: Specifies the increment of space or time or unit by which a contextual ratio of measurement is created,e.g. He charges by the minute. It travels at 90 kilometers per hour. He earns",
+    "why_not_alternatives": {
+      "LOC": "LOC (Locative) serves a different role",
+      "ATD": "ATD (Attendant) serves a different role",
+      "ALL": "ALL (Allative) serves a different role"
+    },
+    "common_mistakes": [
+      "Study the specific semantic distinctions of Assessive",
+      "Compare with related cases in Spatio-Temporal category"
+    ],
+    "embedding_text": "Assessive in Ithkuil\nSpecifies the increment of space or time or unit by which a contextual ratio of measurement is created,e.g. He charges by the minute. It travels at 90 kilometers per hour. He earns $25 per book.\nAssessive case\nASS Ithkuil\nwhen to use Assessive\nhow to express assessive\nduration",
+    "slot": 9,
+    "category": "case",
+    "semantic_role": "DURATION"
+  },
+  {
+    "id": "76638982a044",
+    "type": "case",
+    "code": "PER",
+    "name": "Periodic",
+    "description": "Identifies the span of time / time frame at some point(s) during which, separate events, repetitions, or durationally segmented acts or states take place.Examples would be He wrote the novel in/over six months, These clowns can corrupt your child within a few days, The woman has been ill a lot this year, For the last several concerts, my voice has been deteriorating.",
+    "source_type": "grammar",
+    "confidence": "HIGH",
+    "citation": "Official Ithkuil IV Grammar, §7 (Cases)",
+    "when_to_use": "Use Periodic when: Identifies the span of time / time frame at some point(s) during which, separate events, repetitions, or durationally segmented acts or states take place.Examples would be He wrote",
+    "why_not_alternatives": {
+      "LOC": "LOC (Locative) serves a different role",
+      "ATD": "ATD (Attendant) serves a different role",
+      "ALL": "ALL (Allative) serves a different role"
+    },
+    "common_mistakes": [
+      "Study the specific semantic distinctions of Periodic",
+      "Compare with related cases in Spatio-Temporal category"
+    ],
+    "embedding_text": "Periodic in Ithkuil\nIdentifies the span of time / time frame at some point(s) during which, separate events, repetitions, or durationally segmented acts or states take place.Examples would be He wrote the novel in/over six months, These clowns can corrupt your child within a few days, The woman has been ill a lot this year, For the last several concerts, my voice has been deteriorating.\nPeriodic case\nPER Ithkuil\nwhen to use Periodic\nhow to express periodic\nfrequency",
+    "slot": 9,
+    "category": "case",
+    "semantic_role": "FREQUENCY"
+  },
+  {
+    "id": "dd3ae79a74a3",
+    "type": "case",
+    "code": "PRO",
+    "name": "Prolapsive",
+    "description": "Signifies the duration of an act, condition, or event, i.e., how long it takes or lasts,e.g. He prayed through lunch, It rained all night, It took three days for the fever to break, She sang for an hour.",
+    "source_type": "grammar",
+    "confidence": "HIGH",
+    "citation": "Official Ithkuil IV Grammar, §7 (Cases)",
+    "when_to_use": "Use Prolapsive when: Signifies the duration of an act, condition, or event, i.e., how long it takes or lasts,e.g. He prayed through lunch, It rained all night, It took three days for the fever to break",
+    "why_not_alternatives": {
+      "LOC": "LOC (Locative) serves a different role",
+      "ATD": "ATD (Attendant) serves a different role",
+      "ALL": "ALL (Allative) serves a different role"
+    },
+    "common_mistakes": [
+      "Study the specific semantic distinctions of Prolapsive",
+      "Compare with related cases in Spatio-Temporal category"
+    ],
+    "embedding_text": "Prolapsive in Ithkuil\nSignifies the duration of an act, condition, or event, i.e., how long it takes or lasts,e.g. He prayed through lunch, It rained all night, It took three days for the fever to break, She sang for an hour.\nProlapsive case\nPRO Ithkuil\nwhen to use Prolapsive\nhow to express prolapsive\nanterior",
+    "slot": 9,
+    "category": "case",
+    "semantic_role": "ANTERIOR"
+  },
+  {
+    "id": "29a596bd5ea8",
+    "type": "case",
+    "code": "PCV",
+    "name": "Precursive",
+    "description": "Identifies an entity acting as a point in time prior to which an act, condition, or event occurs,e.g. 'this city before the war', 'a presentation preceding the banquet'.",
+    "source_type": "grammar",
+    "confidence": "HIGH",
+    "citation": "Official Ithkuil IV Grammar, §7 (Cases)",
+    "when_to_use": "Use Precursive for temporal relations: Identifies an entity acting as a point in time prior to which an act, condition, or event occurs,e.g. 'this city before the war', 'a presentation prec",
+    "why_not_alternatives": {
+      "PCR": "PCR for after/following; PCV for before/preceding",
+      "PRO": "PRO for time preceding up to; PCV for point before",
+      "ELP": "ELP for elapsed time; PCV for point-in-time before"
+    },
+    "common_mistakes": [
+      "PCV marks point before which something occurs",
+      "Don't confuse with PRO (period leading up to)"
+    ],
+    "embedding_text": "Precursive in Ithkuil\nIdentifies an entity acting as a point in time prior to which an act, condition, or event occurs,e.g. 'this city before the war', 'a presentation preceding the banquet'.\nPrecursive case\nPCV Ithkuil\nwhen to use Precursive\nhow to express precursive\nbefore",
+    "slot": 9,
+    "category": "case",
+    "semantic_role": "BEFORE"
+  },
+  {
+    "id": "ac2d04ac0547",
+    "type": "case",
+    "code": "PCR",
+    "name": "Postcursive",
+    "description": "Identifies an entity acting as a point in time after which, following which, subsequent to which, an act, state, or event occurs,e.g. 'this city after the war', 'a presentation following the banquet', 'It's been a long time since I danced'.",
+    "source_type": "grammar",
+    "confidence": "HIGH",
+    "citation": "Official Ithkuil IV Grammar, §7 (Cases)",
+    "when_to_use": "Use Postcursive for temporal relations: Identifies an entity acting as a point in time after which, following which, subsequent to which, an act, state, or event occurs,e.g. 'this city after",
+    "why_not_alternatives": {
+      "PCV": "PCV for before; PCR for after/subsequent to",
+      "ELP": "ELP for time elapsed; PCR for point after event",
+      "PRO": "PRO for anterior period; PCR for posterior point"
+    },
+    "common_mistakes": [
+      "PCR marks point after which something occurs",
+      "Can mean 'following' or 'since' (time elapsed after)"
+    ],
+    "embedding_text": "Postcursive in Ithkuil\nIdentifies an entity acting as a point in time after which, following which, subsequent to which, an act, state, or event occurs,e.g. 'this city after the war', 'a presentation following the banquet', 'It's been a long time since I danced'.\nPostcursive case\nPCR Ithkuil\nwhen to use Postcursive\nhow to express postcursive\nafter",
+    "slot": 9,
+    "category": "case",
+    "semantic_role": "AFTER"
+  },
+  {
+    "id": "271ce4b62689",
+    "type": "case",
+    "code": "ELP",
+    "name": "Elapsive",
+    "description": "Identifies the amount of time that has passed or is expected to pass between the contextual present and the time of the act, condition, or event being spoken of. It corresponds to English '...ago' or '...from now'.Examples would be Four years ago I was a student; Going back three generations, women could not even vote; Four years from now, I will be a student; Looking ahead three generations, clowns will rule the world; I will be home in three days; Little did he know that two months later he'd be a rich man.The past vs. future distinction is determined from context, any aspectual morphology, or may be specified with the new TPL affix.",
+    "source_type": "grammar",
+    "confidence": "HIGH",
+    "citation": "Official Ithkuil IV Grammar, §7 (Cases)",
+    "when_to_use": "Use Elapsive for temporal relations: Identifies the amount of time that has passed or is expected to pass between the contextual present and the time of the act, condition, or event being",
+    "why_not_alternatives": {
+      "LOC": "LOC (Locative) serves a different role",
+      "ATD": "ATD (Attendant) serves a different role",
+      "ALL": "ALL (Allative) serves a different role"
+    },
+    "common_mistakes": [
+      "Study the specific semantic distinctions of Elapsive",
+      "Compare with related cases in Spatio-Temporal category"
+    ],
+    "embedding_text": "Elapsive in Ithkuil\nIdentifies the amount of time that has passed or is expected to pass between the contextual present and the time of the act, condition, or event being spoken of. It corresponds to English '...ago' or '...from now'.Examples would be Four years ago I was a student; Going back three generations, women could not even vote; Four years from now, I will be a student; Looking ahead three generations, clowns will rule the world; I will be home in three days; Little did he know that two months later he'd be a rich man.The past vs. future distinction is determined from context, any aspectual morphology, or may be specified with the new TPL affix.\nElapsive case\nELP Ithkuil\nwhen to use Elapsive\nhow to express elapsive\nelapsed",
+    "slot": 9,
+    "category": "case",
+    "semantic_role": "ELAPSED"
+  },
+  {
+    "id": "ee487845b04b",
+    "type": "case",
+    "code": "PLM",
+    "name": "Prolimitive",
+    "description": "Signifies the spatio-temporal boundary point of a span of time or space during which or within which something is expected to or must occur or be situated.Equivalent to English phrases: by the end of X / within the period ending in X / within the period ending with X / before X is over / before X is up / inside of (the period signified by) X",
+    "source_type": "grammar",
+    "confidence": "HIGH",
+    "citation": "Official Ithkuil IV Grammar, §7 (Cases)",
+    "when_to_use": "Use Prolimitive when: Signifies the spatio-temporal boundary point of a span of time or space during which or within which something is expected to or must occur or be situated.Equivalent to English phr",
+    "why_not_alternatives": {
+      "LOC": "LOC (Locative) serves a different role",
+      "ATD": "ATD (Attendant) serves a different role",
+      "ALL": "ALL (Allative) serves a different role"
+    },
+    "common_mistakes": [
+      "Study the specific semantic distinctions of Prolimitive",
+      "Compare with related cases in Spatio-Temporal category"
+    ],
+    "embedding_text": "Prolimitive in Ithkuil\nSignifies the spatio-temporal boundary point of a span of time or space during which or within which something is expected to or must occur or be situated.Equivalent to English phrases: by the end of X / within the period ending in X / within the period ending with X / before X is over / before X is up / inside of (the period signified by) X\nProlimitive case\nPLM Ithkuil\nwhen to use Prolimitive\nhow to express prolimitive\ndeadline",
+    "slot": 9,
+    "category": "case",
+    "semantic_role": "DEADLINE"
+  },
+  {
+    "id": "048f6fc8873b",
+    "type": "function",
+    "code": "STA",
+    "name": "Static",
+    "description": "Nouns identifying an object/entity where change/motion is irrelevant, OR Verbs referring to a non-changing, undynamic state.",
+    "source_type": "grammar",
+    "confidence": "HIGH",
+    "citation": "Official Ithkuil IV Grammar, §4 (Function)",
+    "when_to_use": "Use when describing states, conditions, or entities where change is not relevant to the meaning.",
+    "why_not_alternatives": {
+      "DYN": "DYN emphasizes change/motion; STA treats it as irrelevant or absent"
+    },
+    "common_mistakes": [
+      "Don't use for processes or actions (use DYN)",
+      "STA can describe unchanging states OR things where change doesn't matter contextually"
+    ],
+    "embedding_text": "Static in Ithkuil\n        Nouns identifying an object/entity where change/motion is irrelevant, OR Verbs referring to a non-changing, undynamic state.\n        Use when describing states, conditions, or entities where change is not relevant to the meaning.\n        \n        How to express static\n        When to use Static\n        Ithkuil Static",
+    "slot": 4,
+    "category": "morpheme",
+    "semantic_role": null
+  },
+  {
+    "id": "da6bcf889c38",
+    "type": "function",
+    "code": "DYN",
+    "name": "Dynamic",
+    "description": "Nouns referring to states involving change/motion where said change/motion is relevant, OR Verbs involving change/motion/movement/action.",
+    "source_type": "grammar",
+    "confidence": "HIGH",
+    "citation": "Official Ithkuil IV Grammar, §4 (Function)",
+    "when_to_use": "Use when the change, motion, or dynamic nature is relevant to what you're expressing.",
+    "why_not_alternatives": {
+      "STA": "STA ignores or lacks change; DYN emphasizes it"
+    },
+    "common_mistakes": [
+      "DYN doesn't just mean 'verb' - it's about semantic relevance of change",
+      "Can apply to nouns when their changing nature is relevant"
+    ],
+    "embedding_text": "Dynamic in Ithkuil\n        Nouns referring to states involving change/motion where said change/motion is relevant, OR Verbs involving change/motion/movement/action.\n        Use when the change, motion, or dynamic nature is relevant to what you're expressing.\n        \n        How to express dynamic\n        When to use Dynamic\n        Ithkuil Dynamic",
+    "slot": 4,
+    "category": "morpheme",
+    "semantic_role": null
+  },
+  {
+    "id": "2c61c97d2c6b",
+    "type": "specification",
+    "code": "BSC",
+    "name": "Basic",
+    "description": "A holistic instantiation of a root, prior to the application of other Specifications.",
+    "source_type": "grammar",
+    "confidence": "HIGH",
+    "citation": "Official Ithkuil IV Grammar, §4 (Specification)",
+    "when_to_use": "Default specification - use when you want the general, unspecified form of the root.",
+    "why_not_alternatives": {
+      "CTE": "CTE focuses on content/essence; BSC is neutral/holistic",
+      "CSV": "CSV focuses on form/shape; BSC encompasses both",
+      "OBJ": "OBJ focuses on instrumental/patient aspects; BSC is neutral"
+    },
+    "common_mistakes": [
+      "BSC is the starting point - other specs add specific focus",
+      "Often used when the distinction doesn't matter"
+    ],
+    "embedding_text": "Basic in Ithkuil\n        A holistic instantiation of a root, prior to the application of other Specifications.\n        Default specification - use when you want the general, unspecified form of the root.\n        \n        How to express basic\n        When to use Basic\n        Ithkuil Basic",
+    "slot": 4,
+    "category": "morpheme",
+    "semantic_role": null
+  },
+  {
+    "id": "f2e3ad1ed250",
+    "type": "specification",
+    "code": "CTE",
+    "name": "Contential",
+    "description": "The physical or non-physical content, essence, or purposeful function.",
+    "source_type": "grammar",
+    "confidence": "HIGH",
+    "citation": "Official Ithkuil IV Grammar, §4 (Specification)",
+    "when_to_use": "Use to focus on what something IS essentially, its purpose or content.",
+    "why_not_alternatives": {
+      "CSV": "CSV is about form/appearance; CTE is about essence/function",
+      "BSC": "BSC is neutral; CTE specifically highlights content/purpose"
+    },
+    "common_mistakes": [
+      "CTE is about functional identity, not physical form"
+    ],
+    "embedding_text": "Contential in Ithkuil\n        The physical or non-physical content, essence, or purposeful function.\n        Use to focus on what something IS essentially, its purpose or content.\n        \n        How to express contential\n        When to use Contential\n        Ithkuil Contential",
+    "slot": 4,
+    "category": "morpheme",
+    "semantic_role": null
+  },
+  {
+    "id": "c3bf6dd319cb",
+    "type": "specification",
+    "code": "CSV",
+    "name": "Constitutive",
+    "description": "The form in which an entity/state/act actually expresses itself, is shaped, or is realized.",
+    "source_type": "grammar",
+    "confidence": "HIGH",
+    "citation": "Official Ithkuil IV Grammar, §4 (Specification)",
+    "when_to_use": "Use to focus on the physical form, shape, or manifestation.",
+    "why_not_alternatives": {
+      "CTE": "CTE is essence/purpose; CSV is physical manifestation",
+      "BSC": "BSC is neutral; CSV specifically highlights form"
+    },
+    "common_mistakes": [
+      "CSV is about HOW it appears, not WHAT it's for"
+    ],
+    "embedding_text": "Constitutive in Ithkuil\n        The form in which an entity/state/act actually expresses itself, is shaped, or is realized.\n        Use to focus on the physical form, shape, or manifestation.\n        \n        How to express constitutive\n        When to use Constitutive\n        Ithkuil Constitutive",
+    "slot": 4,
+    "category": "morpheme",
+    "semantic_role": null
+  },
+  {
+    "id": "848fb78666c3",
+    "type": "specification",
+    "code": "OBJ",
+    "name": "Objective",
+    "description": "Tangible tool/instrument/means OR third-party object OR resulting product OR semantic patient.",
+    "source_type": "grammar",
+    "confidence": "HIGH",
+    "citation": "Official Ithkuil IV Grammar, §4 (Specification)",
+    "when_to_use": "Use for instrumental, patient, or object-of-interaction aspects.",
+    "why_not_alternatives": {
+      "BSC": "BSC is neutral; OBJ highlights specific objective roles"
+    },
+    "common_mistakes": [
+      "OBJ has multiple related meanings - context determines which applies",
+      "Often used for semantic patients or instruments"
+    ],
+    "embedding_text": "Objective in Ithkuil\n        Tangible tool/instrument/means OR third-party object OR resulting product OR semantic patient.\n        Use for instrumental, patient, or object-of-interaction aspects.\n        \n        How to express objective\n        When to use Objective\n        Ithkuil Objective",
+    "slot": 4,
+    "category": "morpheme",
+    "semantic_role": null
+  },
+  {
+    "id": "eb754eac428f",
+    "type": "version",
+    "code": "PRC",
+    "name": "Processual",
+    "description": "Acts, conditions, or events which are ends in themselves and not goal-oriented.",
+    "source_type": "grammar",
+    "confidence": "HIGH",
+    "citation": "Official Ithkuil IV Grammar, §2 (Version)",
+    "when_to_use": "Default version - use when the action/state is not directed toward achieving a specific outcome.",
+    "why_not_alternatives": {
+      "CPT": "CPT implies goal-orientation; PRC is for non-teleological acts/states"
+    },
+    "common_mistakes": [
+      "PRC doesn't mean 'ongoing' - it means 'not goal-directed'",
+      "Many states are inherently PRC (being, existing, etc.)"
+    ],
+    "embedding_text": "Processual in Ithkuil\n        Acts, conditions, or events which are ends in themselves and not goal-oriented.\n        Default version - use when the action/state is not directed toward achieving a specific outcome.\n        \n        How to express processual\n        When to use Processual\n        Ithkuil Processual",
+    "slot": 2,
+    "category": "morpheme",
+    "semantic_role": null
+  },
+  {
+    "id": "0da8dbdd0840",
+    "type": "version",
+    "code": "CPT",
+    "name": "Completive",
+    "description": "Acts, conditions, or events which achieve or are intended to achieve an anticipated outcome.",
+    "source_type": "grammar",
+    "confidence": "HIGH",
+    "citation": "Official Ithkuil IV Grammar, §2 (Version)",
+    "when_to_use": "Use when the action/state is directed toward accomplishing a specific goal or reaching an endpoint.",
+    "why_not_alternatives": {
+      "PRC": "PRC lacks goal-orientation; CPT is teleological"
+    },
+    "common_mistakes": [
+      "CPT implies intentionality or goal-directedness",
+      "Not just 'completed' - it's about having a telos/purpose"
+    ],
+    "embedding_text": "Completive in Ithkuil\n        Acts, conditions, or events which achieve or are intended to achieve an anticipated outcome.\n        Use when the action/state is directed toward accomplishing a specific goal or reaching an endpoint.\n        \n        How to express completive\n        When to use Completive\n        Ithkuil Completive",
+    "slot": 2,
+    "category": "morpheme",
+    "semantic_role": null
+  },
+  {
+    "id": "35c964eba3c6",
+    "type": "context",
+    "code": "EXS",
+    "name": "Existential",
+    "description": "Neutral description - ontologically objective features.",
+    "source_type": "grammar",
+    "confidence": "HIGH",
+    "citation": "Official Ithkuil IV Grammar, §4 (Context)",
+    "when_to_use": "Default context - use for objective, factual description without cultural/functional overlay.",
+    "why_not_alternatives": {
+      "FNC": "FNC adds cultural/functional meaning; EXS is purely objective",
+      "RPS": "RPS is metaphorical; EXS is literal"
+    },
+    "common_mistakes": [
+      "EXS is the 'dictionary definition' context"
+    ],
+    "embedding_text": "Existential in Ithkuil\n        Neutral description - ontologically objective features.\n        Default context - use for objective, factual description without cultural/functional overlay.\n        \n        How to express existential\n        When to use Existential\n        Ithkuil Existential",
+    "slot": 4,
+    "category": "morpheme",
+    "semantic_role": null
+  },
+  {
+    "id": "d9a161c82c5c",
+    "type": "context",
+    "code": "FNC",
+    "name": "Functional",
+    "description": "Focus on personal meaning, use, function, cultural significance.",
+    "source_type": "grammar",
+    "confidence": "HIGH",
+    "citation": "Official Ithkuil IV Grammar, §4 (Context)",
+    "when_to_use": "Use when emphasizing how something is used, its role, or cultural meaning.",
+    "why_not_alternatives": {
+      "EXS": "EXS is objective; FNC adds subjective/cultural layer"
+    },
+    "common_mistakes": [
+      "FNC isn't just 'functional' - it's about assigned/cultural meaning"
+    ],
+    "embedding_text": "Functional in Ithkuil\n        Focus on personal meaning, use, function, cultural significance.\n        Use when emphasizing how something is used, its role, or cultural meaning.\n        \n        How to express functional\n        When to use Functional\n        Ithkuil Functional",
+    "slot": 4,
+    "category": "morpheme",
+    "semantic_role": null
+  },
+  {
+    "id": "b2ecee99135a",
+    "type": "context",
+    "code": "RPS",
+    "name": "Representational",
+    "description": "The formative serves as a metaphor, symbol, or metonym.",
+    "source_type": "grammar",
+    "confidence": "HIGH",
+    "citation": "Official Ithkuil IV Grammar, §4 (Context)",
+    "when_to_use": "Use when the word stands for something else metaphorically.",
+    "why_not_alternatives": {
+      "EXS": "EXS is literal; RPS is figurative/symbolic"
+    },
+    "common_mistakes": [
+      "RPS makes the metaphorical nature grammatically explicit"
+    ],
+    "embedding_text": "Representational in Ithkuil\n        The formative serves as a metaphor, symbol, or metonym.\n        Use when the word stands for something else metaphorically.\n        \n        How to express representational\n        When to use Representational\n        Ithkuil Representational",
+    "slot": 4,
+    "category": "morpheme",
+    "semantic_role": null
+  },
+  {
+    "id": "7c4574f9e3c3",
+    "type": "context",
+    "code": "AMG",
+    "name": "Amalgamative",
+    "description": "Focus on emotional impact plus cultural significance.",
+    "source_type": "grammar",
+    "confidence": "HIGH",
+    "citation": "Official Ithkuil IV Grammar, §4 (Context)",
+    "when_to_use": "Use for the most abstract, emotionally-laden, culturally-contextualized meaning.",
+    "why_not_alternatives": {
+      "FNC": "FNC is functional; AMG adds emotional/affective dimension"
+    },
+    "common_mistakes": [
+      "AMG is the most complex context - combines multiple layers"
+    ],
+    "embedding_text": "Amalgamative in Ithkuil\n        Focus on emotional impact plus cultural significance.\n        Use for the most abstract, emotionally-laden, culturally-contextualized meaning.\n        \n        How to express amalgamative\n        When to use Amalgamative\n        Ithkuil Amalgamative",
+    "slot": 4,
+    "category": "morpheme",
+    "semantic_role": null
+  }
+]

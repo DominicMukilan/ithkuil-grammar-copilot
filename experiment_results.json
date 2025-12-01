@@ -1,0 +1,640 @@
+{
+  "timestamp": "2025-12-02T00:32:02.891151",
+  "total_cases": 20,
+  "without_rag": {
+    "valid": 20,
+    "correct_case": 13,
+    "correct_function": 16,
+    "fully_correct": 13,
+    "details": [
+      {
+        "input": "experiencing cold involuntarily",
+        "expected": {
+          "case": "AFF",
+          "function": "STA"
+        },
+        "got": {
+          "case": "ABS",
+          "function": "DYN"
+        },
+        "valid": true,
+        "case_correct": false,
+        "func_correct": false,
+        "reasoning": "The description 'experiencing cold involuntarily' implies a state of being (cold) that is being undergone or suffered by the subject, which aligns with the absolutive case (ABS) for marking the subject of an intransitive clause. The function is dynamic (DYN) because 'experiencing' implies an ongoing process or action, even if it's involuntary."
+      },
+      {
+        "input": "feeling fear",
+        "expected": {
+          "case": "AFF",
+          "function": "STA"
+        },
+        "got": {
+          "case": "ABS",
+          "function": "STA"
+        },
+        "valid": true,
+        "case_correct": false,
+        "func_correct": true,
+        "reasoning": "The description 'feeling fear' denotes a state of being, which aligns with the static function (STA). The absolutive case (ABS) is used to mark the subject of a sentence when it is in a state or condition, making it the most suitable choice for this description."
+      },
+      {
+        "input": "sneezing",
+        "expected": {
+          "case": "AFF",
+          "function": "STA"
+        },
+        "got": {
+          "case": "ABS",
+          "function": "DYN"
+        },
+        "valid": true,
+        "case_correct": false,
+        "func_correct": false,
+        "reasoning": "The description 'sneezing' implies an action or process, which aligns with the DYN function. Since sneezing is an intransitive action that doesn't specify an agent or patient, the ABS case is most suitable as it often represents the sole argument of an intransitive verb."
+      },
+      {
+        "input": "hearing a loud noise",
+        "expected": {
+          "case": "AFF",
+          "function": "STA"
+        },
+        "got": {
+          "case": "ABS",
+          "function": "DYN"
+        },
+        "valid": true,
+        "case_correct": false,
+        "func_correct": false,
+        "reasoning": "The English description 'hearing a loud noise' implies an experiential or sensory process, which is typically encoded as an absolutive (ABS) case in Ithkuil, focusing on the entity experiencing the sensation. The dynamic (DYN) function is chosen because 'hearing' describes an ongoing or transient action rather than a static state."
+      },
+      {
+        "input": "feeling hungry",
+        "expected": {
+          "case": "AFF",
+          "function": "STA"
+        },
+        "got": {
+          "case": "ABS",
+          "function": "STA"
+        },
+        "valid": true,
+        "case_correct": false,
+        "func_correct": true,
+        "reasoning": "The description 'feeling hungry' denotes a state of being, and the subject experiencing the hunger is in a neutral, unaffected state, which aligns with the Absolutive case. The static function is chosen because 'feeling hungry' describes a condition rather than an action."
+      },
+      {
+        "input": "deliberately breaking a vase",
+        "expected": {
+          "case": "ERG",
+          "function": "DYN"
+        },
+        "got": {
+          "case": "ERG",
+          "function": "DYN"
+        },
+        "valid": true,
+        "case_correct": true,
+        "func_correct": true,
+        "reasoning": "The subject is performing a deliberate action (breaking a vase), which requires an ergative case to indicate the agent of the action, and a dynamic function to describe the action itself."
+      },
+      {
+        "input": "a person writing a letter",
+        "expected": {
+          "case": "ERG",
+          "function": "DYN"
+        },
+        "got": {
+          "case": "ERG",
+          "function": "DYN"
+        },
+        "valid": true,
+        "case_correct": true,
+        "func_correct": true,
+        "reasoning": "The person is performing the action of writing, making them the agent, which corresponds to the ERG case, and the action of writing is a dynamic event, hence DYN function."
+      },
+      {
+        "input": "the chef cooking dinner",
+        "expected": {
+          "case": "ERG",
+          "function": "DYN"
+        },
+        "got": {
+          "case": "ERG",
+          "function": "DYN"
+        },
+        "valid": true,
+        "case_correct": true,
+        "func_correct": true,
+        "reasoning": "The chef is performing the action of cooking dinner, indicating an ergative case for the agent of the action and a dynamic function for the action itself."
+      },
+      {
+        "input": "someone intentionally pushing a door",
+        "expected": {
+          "case": "ERG",
+          "function": "DYN"
+        },
+        "got": {
+          "case": "ERG",
+          "function": "DYN"
+        },
+        "valid": true,
+        "case_correct": true,
+        "func_correct": true,
+        "reasoning": "The subject (someone) is performing an intentional action (pushing) on an object (door), which aligns with the ergative case marking the agent of a transitive verb, and the dynamic function indicating an action is taking place."
+      },
+      {
+        "input": "a student solving a problem",
+        "expected": {
+          "case": "ERG",
+          "function": "DYN"
+        },
+        "got": {
+          "case": "ERG",
+          "function": "DYN"
+        },
+        "valid": true,
+        "case_correct": true,
+        "func_correct": true,
+        "reasoning": "The student is performing the action of solving, making them the agent, which corresponds to the ERG case, and the action of solving is a dynamic process."
+      },
+      {
+        "input": "using a hammer to hit a nail",
+        "expected": {
+          "case": "INS",
+          "function": "DYN"
+        },
+        "got": {
+          "case": "INS",
+          "function": "DYN"
+        },
+        "valid": true,
+        "case_correct": true,
+        "func_correct": true,
+        "reasoning": "The English description 'using a hammer to hit a nail' implies an instrument (hammer) being used to perform an action (hitting), which aligns with the instrumental case (INS) and a dynamic function (DYN) since it describes an action."
+      },
+      {
+        "input": "the key that opens the door",
+        "expected": {
+          "case": "INS",
+          "function": "DYN"
+        },
+        "got": {
+          "case": "INS",
+          "function": "DYN"
+        },
+        "valid": true,
+        "case_correct": true,
+        "func_correct": true,
+        "reasoning": "The key is the instrument used to perform the action of opening the door, which is a dynamic function, hence INS (instrumental) case and DYN (dynamic) function."
+      },
+      {
+        "input": "cutting with a knife",
+        "expected": {
+          "case": "INS",
+          "function": "DYN"
+        },
+        "got": {
+          "case": "INS",
+          "function": "DYN"
+        },
+        "valid": true,
+        "case_correct": true,
+        "func_correct": true,
+        "reasoning": "The phrase 'cutting with a knife' implies an action (DYN) and the knife is the instrument (INS) used to perform that action."
+      },
+      {
+        "input": "the vase that was broken",
+        "expected": {
+          "case": "ABS",
+          "function": "STA"
+        },
+        "got": {
+          "case": "ABS",
+          "function": "STA"
+        },
+        "valid": true,
+        "case_correct": true,
+        "func_correct": true,
+        "reasoning": "The phrase describes a state of being, specifically the vase being in a broken state, which aligns with the absolutive case marking the subject of a static sentence."
+      },
+      {
+        "input": "the door being opened",
+        "expected": {
+          "case": "ABS",
+          "function": "DYN"
+        },
+        "got": {
+          "case": "ABS",
+          "function": "DYN"
+        },
+        "valid": true,
+        "case_correct": true,
+        "func_correct": true,
+        "reasoning": "The phrase 'the door being opened' describes an action (opening) that is in a state of being performed on the door, which is the patient or undergoer of the action, thus requiring the Absolutive case, and since it describes an action, the function is Dynamic."
+      },
+      {
+        "input": "the topic of discussion",
+        "expected": {
+          "case": "THM",
+          "function": "STA"
+        },
+        "got": {
+          "case": "THM",
+          "function": "STA"
+        },
+        "valid": true,
+        "case_correct": true,
+        "func_correct": true,
+        "reasoning": "The phrase 'the topic of discussion' refers to a static concept or a state of being the subject of conversation, which aligns with the thematic case (THM) in Ithkuil, indicating the topic or theme of a situation, and the static function (STA) as it describes a state rather than an action."
+      },
+      {
+        "input": "what we are talking about",
+        "expected": {
+          "case": "THM",
+          "function": "STA"
+        },
+        "got": {
+          "case": "THM",
+          "function": "STA"
+        },
+        "valid": true,
+        "case_correct": true,
+        "func_correct": true,
+        "reasoning": "The phrase 'what we are talking about' refers to a topic, which is a thematic role, hence THM case. The phrase describes a static state of discussion, rather than an action, so STA function is appropriate."
+      },
+      {
+        "input": "the noise that startled me",
+        "expected": {
+          "case": "STM",
+          "function": "STA"
+        },
+        "got": {
+          "case": "ERG",
+          "function": "DYN"
+        },
+        "valid": true,
+        "case_correct": false,
+        "func_correct": false,
+        "reasoning": "The phrase 'that startled me' describes an action (startling) that is performed by the noise, making it the agent of the action, hence ERG case. The function is DYN because it describes a dynamic event (the act of startling) rather than a static state."
+      },
+      {
+        "input": "the sight that frightened her",
+        "expected": {
+          "case": "STM",
+          "function": "STA"
+        },
+        "got": {
+          "case": "THM",
+          "function": "STA"
+        },
+        "valid": true,
+        "case_correct": false,
+        "func_correct": true,
+        "reasoning": "The phrase describes a state or condition (the sight) that caused an emotion (frightened), which is a static relation, hence STA. The sight is also the theme or cause of the emotion, which corresponds to the THM case."
+      },
+      {
+        "input": "the person receiving a gift",
+        "expected": {
+          "case": "DAT",
+          "function": "DYN"
+        },
+        "got": {
+          "case": "DAT",
+          "function": "DYN"
+        },
+        "valid": true,
+        "case_correct": true,
+        "func_correct": true,
+        "reasoning": "The person is receiving a gift, indicating a dynamic action of reception, and the dative case is used to mark the recipient of an action."
+      }
+    ]
+  },
+  "with_rag": {
+    "valid": 20,
+    "correct_case": 19,
+    "correct_function": 20,
+    "fully_correct": 19,
+    "details": [
+      {
+        "input": "experiencing cold involuntarily",
+        "expected": {
+          "case": "AFF",
+          "function": "STA"
+        },
+        "got": {
+          "case": "AFF",
+          "function": "STA"
+        },
+        "valid": true,
+        "case_correct": true,
+        "func_correct": true,
+        "attempts": 1,
+        "reasoning": "The experience of cold is an unwilled, affective experience, which aligns with the definition of the Affective case. Additionally, experiencing cold is a state, not an action, which requires the Static function."
+      },
+      {
+        "input": "feeling fear",
+        "expected": {
+          "case": "AFF",
+          "function": "STA"
+        },
+        "got": {
+          "case": "AFF",
+          "function": "STA"
+        },
+        "valid": true,
+        "case_correct": true,
+        "func_correct": true,
+        "attempts": 1,
+        "reasoning": "The experience of feeling fear is an unwilled, affective experience, which aligns with the definition of the Affective case. Additionally, experiences are states, not actions, which requires the Static function."
+      },
+      {
+        "input": "sneezing",
+        "expected": {
+          "case": "AFF",
+          "function": "STA"
+        },
+        "got": {
+          "case": "AFF",
+          "function": "STA"
+        },
+        "valid": true,
+        "case_correct": true,
+        "func_correct": true,
+        "attempts": 1,
+        "reasoning": "Sneezing is an unwilled, affective experience, which requires the Affective case and, by rule, the Static function."
+      },
+      {
+        "input": "hearing a loud noise",
+        "expected": {
+          "case": "AFF",
+          "function": "STA"
+        },
+        "got": {
+          "case": "AFF",
+          "function": "STA"
+        },
+        "valid": true,
+        "case_correct": true,
+        "func_correct": true,
+        "attempts": 1,
+        "reasoning": "The experience of hearing a loud noise is an unwilled experience, which aligns with the Affective case. Since experiences are states and not actions, the Affective case requires the Static function."
+      },
+      {
+        "input": "feeling hungry",
+        "expected": {
+          "case": "AFF",
+          "function": "STA"
+        },
+        "got": {
+          "case": "AFF",
+          "function": "STA"
+        },
+        "valid": true,
+        "case_correct": true,
+        "func_correct": true,
+        "attempts": 1,
+        "reasoning": "The description 'feeling hungry' represents an unwilled experience, which aligns with the Affective case. Since AFF case requires STA function, as experiences are states and not actions, the correct function is STA."
+      },
+      {
+        "input": "deliberately breaking a vase",
+        "expected": {
+          "case": "ERG",
+          "function": "DYN"
+        },
+        "got": {
+          "case": "ERG",
+          "function": "DYN"
+        },
+        "valid": true,
+        "case_correct": true,
+        "func_correct": true,
+        "attempts": 1,
+        "reasoning": "The description 'deliberately breaking a vase' implies a deliberate agent performing an action, which requires the ERG case and DYN function."
+      },
+      {
+        "input": "a person writing a letter",
+        "expected": {
+          "case": "ERG",
+          "function": "DYN"
+        },
+        "got": {
+          "case": "ERG",
+          "function": "DYN"
+        },
+        "valid": true,
+        "case_correct": true,
+        "func_correct": true,
+        "attempts": 1,
+        "reasoning": "The person is a deliberate agent performing the action of writing a letter, which requires the ERG case and DYN function."
+      },
+      {
+        "input": "the chef cooking dinner",
+        "expected": {
+          "case": "ERG",
+          "function": "DYN"
+        },
+        "got": {
+          "case": "ERG",
+          "function": "DYN"
+        },
+        "valid": true,
+        "case_correct": true,
+        "func_correct": true,
+        "attempts": 1,
+        "reasoning": "The chef is a deliberate agent performing the action of cooking dinner, which requires the ERG case and DYN function."
+      },
+      {
+        "input": "someone intentionally pushing a door",
+        "expected": {
+          "case": "ERG",
+          "function": "DYN"
+        },
+        "got": {
+          "case": "ERG",
+          "function": "DYN"
+        },
+        "valid": true,
+        "case_correct": true,
+        "func_correct": true,
+        "attempts": 1,
+        "reasoning": "The person is a deliberate agent performing the action of pushing, which requires the ERG case and DYN function."
+      },
+      {
+        "input": "a student solving a problem",
+        "expected": {
+          "case": "ERG",
+          "function": "DYN"
+        },
+        "got": {
+          "case": "ERG",
+          "function": "DYN"
+        },
+        "valid": true,
+        "case_correct": true,
+        "func_correct": true,
+        "attempts": 1,
+        "reasoning": "The student is a deliberate agent performing the action of solving a problem, which requires the ERG case and DYN function."
+      },
+      {
+        "input": "using a hammer to hit a nail",
+        "expected": {
+          "case": "INS",
+          "function": "DYN"
+        },
+        "got": {
+          "case": "INS",
+          "function": "DYN"
+        },
+        "valid": true,
+        "case_correct": true,
+        "func_correct": true,
+        "attempts": 1,
+        "reasoning": "The hammer is being used as a tool to perform the action of hitting the nail, which requires the Instrumental case and Dynamic function because the instrument is actively being used to carry out an action."
+      },
+      {
+        "input": "the key that opens the door",
+        "expected": {
+          "case": "INS",
+          "function": "DYN"
+        },
+        "got": {
+          "case": "INS",
+          "function": "DYN"
+        },
+        "valid": true,
+        "case_correct": true,
+        "func_correct": true,
+        "attempts": 1,
+        "reasoning": "The key is an instrument being used to perform the action of opening the door, which requires the Instrumental case and Dynamic function according to the given rules."
+      },
+      {
+        "input": "cutting with a knife",
+        "expected": {
+          "case": "INS",
+          "function": "DYN"
+        },
+        "got": {
+          "case": "INS",
+          "function": "DYN"
+        },
+        "valid": true,
+        "case_correct": true,
+        "func_correct": true,
+        "attempts": 1,
+        "reasoning": "The knife is being used as an instrument to perform the action of cutting, which is a dynamic event."
+      },
+      {
+        "input": "the vase that was broken",
+        "expected": {
+          "case": "ABS",
+          "function": "STA"
+        },
+        "got": {
+          "case": "ABS",
+          "function": "STA"
+        },
+        "valid": true,
+        "case_correct": true,
+        "func_correct": true,
+        "attempts": 1,
+        "reasoning": "The vase is an entity that has undergone a change (being broken), which makes it the absolutive case. Since the vase is now in a state of being broken, which is a non-changing situation, the function is static."
+      },
+      {
+        "input": "the door being opened",
+        "expected": {
+          "case": "ABS",
+          "function": "DYN"
+        },
+        "got": {
+          "case": "ABS",
+          "function": "DYN"
+        },
+        "valid": true,
+        "case_correct": true,
+        "func_correct": true,
+        "attempts": 1,
+        "reasoning": "The door is undergoing a change of state (being opened), which aligns with the Absolutive case. Since the door's state is changing, the function is Dynamic."
+      },
+      {
+        "input": "the topic of discussion",
+        "expected": {
+          "case": "THM",
+          "function": "STA"
+        },
+        "got": {
+          "case": "THM",
+          "function": "STA"
+        },
+        "valid": true,
+        "case_correct": true,
+        "func_correct": true,
+        "attempts": 1,
+        "reasoning": "The phrase 'the topic of discussion' refers to a neutral content or subject being discussed, which does not undergo any tangible change of state, fitting the definition of the Thematic case. Since it's a state of being the topic, it requires the Static function."
+      },
+      {
+        "input": "what we are talking about",
+        "expected": {
+          "case": "THM",
+          "function": "STA"
+        },
+        "got": {
+          "case": "THM",
+          "function": "STA"
+        },
+        "valid": true,
+        "case_correct": true,
+        "func_correct": true,
+        "attempts": 1,
+        "reasoning": "The phrase 'what we are talking about' refers to the topic or content of the conversation, which is a neutral, unchanging concept, fitting the definition of the Thematic case. Since the topic is not undergoing any change, the Static function is appropriate."
+      },
+      {
+        "input": "the noise that startled me",
+        "expected": {
+          "case": "STM",
+          "function": "STA"
+        },
+        "got": {
+          "case": "AFF",
+          "function": "STA"
+        },
+        "valid": true,
+        "case_correct": false,
+        "func_correct": true,
+        "attempts": 1,
+        "reasoning": "The description 'the noise that startled me' implies an unwilled experience of being startled, which is an affective experience. The AFF case is used for the experiencer of such unwilled experiences, and since experiences are states, not actions, it requires the STA function."
+      },
+      {
+        "input": "the sight that frightened her",
+        "expected": {
+          "case": "STM",
+          "function": "STA"
+        },
+        "got": {
+          "case": "STM",
+          "function": "STA"
+        },
+        "valid": true,
+        "case_correct": true,
+        "func_correct": true,
+        "attempts": 1,
+        "reasoning": "The sight is the stimulus that triggers an unwilled, affective response (fright), which is a state, so it requires the Static function. The correct case is STM (Stimulative) because it identifies the party/entity that triggers the unwilled response."
+      },
+      {
+        "input": "the person receiving a gift",
+        "expected": {
+          "case": "DAT",
+          "function": "DYN"
+        },
+        "got": {
+          "case": "DAT",
+          "function": "DYN"
+        },
+        "valid": true,
+        "case_correct": true,
+        "func_correct": true,
+        "attempts": 1,
+        "reasoning": "The person is the recipient of a verb of transference (receiving a gift), which is a dynamic action, hence requiring the Dative case and Dynamic function."
+      }
+    ]
+  }
+}
